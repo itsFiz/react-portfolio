@@ -20,7 +20,7 @@ const Hero = () => {
                     <i class="fa-brands fa-linkedin-in"></i>
                 </a>
                 <a href="https://wellfound.com/u/prantosh-biswas">
-                <i class="fab fa-angellist"></i>
+                    <i class="fab fa-angellist"></i>
                 </a>
                 <a href="https://www.twitter.com/prantalks" target="_blank">
                     <i class="fa-brands fa-twitter"></i>
