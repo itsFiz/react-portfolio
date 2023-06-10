@@ -1,0 +1,67 @@
+.hero{
+    position: relative;
+    min-height: 59vh;
+}
+
+.title{
+    font-size: 2.9rem;
+    color: white;
+    margin: 15% 0 0 0;
+}
+
+.tagline {
+    font-size: 1.8rem;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--primary-color);
+    margin: 1rem 0 0 0;
+  }
+  
+.hero p{
+    font-size: 0.95rem;
+    color: white;
+    opacity: 0.7;
+    font-weight: normal;
+    width: 55%;
+    line-height: 1.8rem;
+    margin: 2rem 0;
+}
+
+.hero-btns{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hire-me{
+    background: var(--primary-color);
+}
+
+.lets-talk{
+    background: transparent;
+    color: white;
+}
+
+.social-icons{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.social-icons a{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.social-icons a:hover{
+    background: var(--primary-color);
+    color: white;
+}
