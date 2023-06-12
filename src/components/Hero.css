@@ -1,12 +1,14 @@
 .hero{
-    position: relative;
-    min-height: 59vh;
+    height: 100vh;
+    background: url(../assets/background.jpg);
+    background-size: cover;
+    padding: 5% 10%;
 }
 
 .title{
     font-size: 2.9rem;
     color: white;
-    margin: 15% 0 0 0;
+    margin: 13% 0 0 0;
 }
 
 .tagline {
@@ -43,7 +45,7 @@
 
 .social-icons{
     position: absolute;
-    bottom: 0;
+    bottom: 7%;
     display: flex;
     align-items: center;
     gap: 2rem;

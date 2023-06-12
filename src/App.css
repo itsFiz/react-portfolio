@@ -1,0 +1,33 @@
+:root{
+    --primary-color: #00abf0;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    background: white;
+}
+
+body::-webkit-scrollbar{
+display: none;
+}
+
+ul > li{
+    list-style: none;
+    font-weight: bold;
+} 
+
+button{
+    border: 2px solid var(--primary-color);
+    padding: 0.7rem 2.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}

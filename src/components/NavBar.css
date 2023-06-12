@@ -1,0 +1,21 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+    width: 100%;
+    z-index: 100;
+    background: #031d2a;
+    padding: 0 0 0 10%;
+}
+.menu{
+    display: flex;
+    margin-right: 20%;;
+}
+
+.menu > li{
+    padding: 0 1rem;
+}
