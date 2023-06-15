@@ -9,7 +9,7 @@ nav{
     width: 100%;
     z-index: 100;
     background: #031d2a;
-    padding: 0 0 0 10%;
+    padding: 0.5% 0 0.5% 10%;
 }
 .menu{
     display: flex;

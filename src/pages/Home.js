@@ -7,6 +7,7 @@ const Home = () => {
     <div className='home'>
      <Hero />
      <About />
+     <Hero />
     </div>
   )
 }
