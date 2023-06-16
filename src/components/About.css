@@ -1,4 +1,44 @@
 .about{
-    height: 100vh;
     padding: 5% 10%;
+    display: flex;
+}
+
+.about-me{
+    width: 45%;
+}
+
+.about-para{
+    width: 80% !important;
+}
+
+.about-skills{
+    padding: 5% 0 0 10%;
+    border-left: 0.2px solid rgba(136,158,168,.2);
+    margin-left: 0%;
+}
+
+.skills{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    align-items: center;
+    color: white;
+}
+
+.skill img{
+    width: 40px;
+}
+
+.skill-title{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }

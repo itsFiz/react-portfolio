@@ -18,12 +18,12 @@
     margin: 1rem 0 0 0;
   }
   
-.hero p{
-    font-size: 0.95rem;
+.paragraph{
+    font-size: 0.99rem;
     color: white;
     opacity: 0.7;
     font-weight: normal;
-    width: 55%;
+    width: 54%;
     line-height: 1.8rem;
     margin: 2rem 0;
 }

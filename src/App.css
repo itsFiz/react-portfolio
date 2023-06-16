@@ -8,7 +8,7 @@
 
 body{
     margin: 0;
-    background: white;
+    background: rgb(4, 29, 43);
 }
 
 body::-webkit-scrollbar{

@@ -7,7 +7,7 @@ const Hero = () => {
         <div className='hero' id='home'>
             <h2 className='title'>Prantosh Biswas</h2>
             <h3 className='tagline'>Full-Stack Developer</h3>
-            <p>Hello there! I'm Prantosh, a full stack developer passionate about crafting exceptional digital experiences. With a keyboard as my paintbrush and lines of code as my canvas, I bring ideas to life in the virtual realm. Let's join forces and bring your digital dreams to fruition. Get in touch, and let's embark on this exciting journey together!</p>
+            <p className='paragraph'>Hello there! I'm Prantosh, a full stack developer passionate about crafting exceptional digital experiences. With a keyboard as my paintbrush and lines of code as my canvas, I bring ideas to life in the virtual realm. Let's join forces and bring your digital dreams to fruition. Get in touch, and let's embark on this exciting journey together!</p>
             <div className="hero-btns">
                 <button className="hire-me">Hire Me</button>
                 <button className="lets-talk">Let's Talk</button>
