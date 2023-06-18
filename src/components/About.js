@@ -7,19 +7,17 @@ import Ruby from '../assets/ruby.png'
 import JEST from '../assets/jest.png'
 import Flutter from '../assets/flutter.png'
 import VSCode from '../assets/vscode.png'
+import Figma from '../assets/figma.png'
 
 const About = () => {
   return (
     <section className='about' id='about'>
       <div className="about-me">
-        <h2 className='title'>About Me</h2>
+        <h2 className='title'>aBOUT mE</h2>
         <p className='paragraph about-para'>
           My journey in the world of programming began in 2018 when I ventured into freelancing. Since then, I have had the opportunity to work on a wide range of projects, honing my skills and expanding my knowledge along the way. I have worked with various clients, both independently and as part of a team, to deliver innovative and user-friendly websites and mobile applications.
         </p>
-        <p className='paragraph about-para'>
-          In my pursuit of continuous growth and learning, I joined Microverse, an online immersive coding program. This experience has allowed me to collaborate with talented developers from around the world, solving complex coding challenges and building real-world projects. Through Microverse, I have acquired valuable teamwork and communication skills while gaining hands-on experience in the latest web development technologies and practices.
-        </p>
-        <button>Get my CV</button>
+        <button className='hire-me'>Get my CV</button>
       </div>
       <div className="about-skills">
         <h2 className='skill-title'>Front-End</h2>
@@ -133,6 +131,17 @@ const About = () => {
           <div className="skill">
             <img src="https://static-00.iconduck.com/assets.00/npm-icon-2048x2048-3xqnd60o.png" alt="" />
             <p>npm</p>
+          </div>
+        </div>
+        <h2 className='skill-title'>Design</h2>
+        <div className="skills">
+          <div className="skill">
+            <img src="https://freelogopng.com/images/all_img/1656733637logo-canva-png.png" alt="" />
+            <p>Canva</p>
+          </div>
+          <div className="skill">
+            <img src={Figma}alt="" />
+            <p>Figma</p>
           </div>
         </div>
         <h2 className='skill-title'>Communication</h2>

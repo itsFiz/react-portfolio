@@ -7,15 +7,21 @@ nav{
     top: 0;
     background-color: transparent;
     width: 100%;
-    z-index: 100;
-    background: #031d2a;
-    padding: 0.5% 0 0.5% 10%;
+    z-index: 99;
+    padding: 0 0 0 10%;
+    border-bottom: 1px solid rgba(184, 184, 184, 0.384);
 }
 .menu{
     display: flex;
-    margin-right: 20%;;
+    margin-right: 20%;
 }
 
 .menu > li{
-    padding: 0 1rem;
+    padding: 0 0.75rem;
+    font-size: 1.3rem;
+}
+
+.name-logo{
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
 }
