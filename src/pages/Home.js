@@ -1,5 +1,7 @@
 import About from "../components/About";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
+import Projects from "../components/Projects";
 import './Home.css'
 
 const Home = () => {
@@ -7,7 +9,8 @@ const Home = () => {
     <div className='home'>
      <Hero />
      <About />
-     <Hero />
+     <Projects />
+     <Footer />
     </div>
   )
 }

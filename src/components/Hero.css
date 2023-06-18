@@ -1,31 +1,34 @@
 .hero{
     height: 100vh;
-    background: url(../assets/background.jpg);
-    background-size: cover;
     padding: 5% 10%;
+    width: 50%;
 }
 
 .title{
-    font-size: 2.9rem;
+    font-size: 6rem;
     color: white;
-    margin: 13% 0 0 0;
+    margin: 20% 0 0 0;
+    font-family: 'Indie Flower', cursive;
 }
 
 .tagline {
-    font-size: 1.8rem;
-    color: transparent;
-    -webkit-text-stroke: 1px var(--primary-color);
-    margin: 1rem 0 0 0;
+    font-size: 1.5rem;
+    color: rgba(253, 147, 147, 0.918);
+    margin: -3% 4% 0;
+    text-align: right;
+    font-family: 'Orbit', sans-serif;
   }
   
 .paragraph{
-    font-size: 0.99rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
     color: white;
+    font-weight: 800;
     opacity: 0.7;
     font-weight: normal;
-    width: 54%;
-    line-height: 1.8rem;
+    line-height:2.2rem;
     margin: 2rem 0;
+    text-align: justify;
 }
 
 .hero-btns{
@@ -35,7 +38,7 @@
 }
 
 .hire-me{
-    background: var(--primary-color);
+    color: white;
 }
 
 .lets-talk{
@@ -48,22 +51,27 @@
     bottom: 7%;
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .social-icons a{
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    width: 2rem;
-    height: 2rem;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     text-decoration: none;
+    font-size: 1.85rem;
 }
 
-.social-icons a:hover{
-    background: var(--primary-color);
-    color: white;
+
+.social-icons a i{
+    transition: 0.3s ease-in-out;
 }
+
+.social-icons a:hover i{
+    transition: 0.3s ease-in-out;
+
+    transform: scale(1.3);
+}
+
