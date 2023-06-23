@@ -13,8 +13,8 @@ const NavBar = () => {
     
           if (isScrolled) {
             setNavbarStyle({
-              backdropFilter: 'blur(5px)',
-              textShadow: '0 0 5px rgba(0, 0, 0, 0.5)'
+              backgroundColor: 'rgba(0, 0, 0, 0.8)',
+              backdropFilter: 'blur(10px)'
             });
           } else {
             setNavbarStyle({});
@@ -33,8 +33,7 @@ const NavBar = () => {
             <nav style={navbarStyle}>
                 <h1>
                 <Link className='name-logo' spy={true} smooth={true} offset={50} duration={500} to="home">
-                Prantosh.
-                        </Link>
+                prantosh.</Link> <span className='blink'></span>
                 </h1>
                 <ul className='menu'>
 

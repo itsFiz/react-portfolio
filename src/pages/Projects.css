@@ -1,0 +1,16 @@
+.projects{
+    padding: 5% 10%;
+
+}
+
+.projects-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+ }
+
+.projects-title{
+    margin: 0;
+    padding-top: 2%;
+    border-top:  1px solid rgba(0, 0, 0, 0.534);
+}
