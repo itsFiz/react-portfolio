@@ -33,17 +33,19 @@ button{
     border-radius: 50px;
     cursor: pointer;
     font-size: 1.5rem;
-    background: rgb(255, 118, 118);
+    background: #cb450c;
 }
 
 a{
     text-decoration: none;
     color: inherit;
+	cursor: pointer;
 }
 
 
 .App {
 	background-image: url('./assets/effect.png');
+	background-size: 300px;
 	animation: static 3s steps(5, end) infinite;
 	opacity: 0.65;
     z-index: 999;
@@ -70,10 +72,17 @@ a{
 	}
 }
 
-footer h2{
+footer h3{
 	text-align: center;
 	color: white;
 	margin: 0;
 	padding: 2% 0;
 	letter-spacing: 0.1rem;
+}
+
+
+@media screen and (min-resolution: 100dpi){
+	button{
+		font-size: 1rem;
+	}
 }

@@ -1,0 +1,157 @@
+.hero{
+    height: 100vh;
+    padding: 3% 5% 0 10%;
+    display: flex;
+    gap: 5%;
+}
+
+.description{
+width: 57%;
+}
+
+.hero-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+.hero-image img{
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+
+.title{
+    font-size: 5.75rem;
+    color: white;
+    margin: 20% 0 0 0;
+    font-family: 'Indie Flower', cursive;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    color: #cb450c;
+    margin: -3% 1% 0;
+    text-align: right;
+    font-family: 'Orbit', sans-serif;
+  }
+  
+.paragraph{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    opacity: 0.8;
+    font-weight: normal;
+    line-height:2.2rem;
+    margin: 2rem 0;
+    text-align: justify;
+}
+
+.hero-btns{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hire-me{
+    color: white;
+    border-color: #cb450c;
+}
+
+.lets-talk{
+    background: transparent;
+    color: white;
+}
+
+.social-icons{
+    position: absolute;
+    bottom: 7%;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.social-icons a{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.85rem;
+}
+
+
+.social-icons a i{
+    transition: 0.3s ease-in-out;
+}
+
+.social-icons a:hover i{
+    transition: 0.3s ease-in-out;
+
+    transform: scale(1.3);
+}
+
+
+
+
+
+
+
+/* for MacBook ~ 13 inch */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3),
+       only screen and (min-resolution: 125dpi) {
+    .hero{
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .hero-image{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 10%;
+    }
+    
+    .hero-image img{
+        width: 80%;
+        animation-name: floating;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+    
+    
+    .title{
+    font-size: 4.5rem;
+    }
+    
+    .tagline {
+        font-size: 1.2rem;
+        margin: -3% 0 0;
+      }
+
+    .paragraph{
+        font-size: 1rem;
+    }
+
+    .social-icons a{
+        font-size: 1.5rem;
+    }
+}
+

@@ -1,0 +1,111 @@
+.about{
+    padding: 5% 10%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.about-me{
+    width: 100%;
+    position: sticky;
+    top: 10%;
+}
+
+.about-para{
+    width: 90% !important;
+    margin-bottom: 2rem;
+}
+
+.about-skills{
+    padding: 5% 0 0 7%;
+    border-left: 0.2px solid rgba(136,158,168,.2);
+    margin-left: 0%;
+}
+
+.skills{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    align-items: center;
+    color: white;
+}
+
+.skill img{
+    width: 50px;
+}
+
+.skill-title{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.soft-skill{
+    color: white;
+    font-size: 1.2rem;
+    text-transform: lowercase;
+    border-radius: 50px;
+    margin: 0;
+    font-family: 'Orbit', sans-serif;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3),
+       only screen and (min-resolution: 125dpi) {
+
+        .about{
+            padding: 5% 2% 0 10%;
+        }
+
+        .about-me{
+            top: 5%;
+        }
+        
+        .about-skills{
+            padding: 5% 0 0 5%;
+            border-left: 0.2px solid rgba(136,158,168,.2);
+            margin-left: 0%;
+        }
+        
+        .skills{
+            margin-top: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2.5rem;
+        }
+        
+        .skill{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            align-items: center;
+            color: white;
+        }
+        
+        .skill img{
+            width: 40px;
+        }
+        
+        .skill-title{
+            color: white;
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .soft-skill{
+            color: white;
+            font-size: 1rem;
+            text-transform: lowercase;
+            border-radius: 50px;
+            margin: 0;
+            font-family: 'Orbit', sans-serif;
+        }
+        
+}

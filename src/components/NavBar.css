@@ -9,7 +9,6 @@ nav{
     width: 100%;
     z-index: 99;
     padding: 0 0 0 10%;
-    border-bottom: 1px solid rgba(184, 184, 184, 0.384);
 }
 .menu{
     display: flex;
@@ -21,7 +20,27 @@ nav{
     font-size: 1.3rem;
 }
 
-.name-logo{
-    font-size: 2.5rem;
-    font-family: 'Playfair Display', serif;
+nav > h1 {
+    display: flex;
 }
+
+.name-logo{ 
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+.blink{
+    height: 1.8rem;
+    width: 15px;
+    animation: blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-bottom: 3px solid white;
+    display: block;
+}
+
+@keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
