@@ -1,15 +1,15 @@
-.hero{
+.hero {
     height: 100vh;
-    padding: 3% 5% 0 10%;
+    padding: 4% 5% 0 10%;
     display: flex;
     gap: 5%;
 }
 
-.description{
-width: 57%;
+.description {
+    width: 57%;
 }
 
-.hero-image{
+.hero-image {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +17,7 @@ width: 57%;
     padding-bottom: 10%;
 }
 
-.hero-image img{
+.hero-image img {
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -25,18 +25,26 @@ width: 57%;
 }
 
 
- 
+
 @keyframes floating {
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
-    100%   { transform: translate(0, -0px); }   
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
 }
 
 
-.title{
+.title {
     font-size: 5.75rem;
     color: white;
-    margin: 20% 0 0 0;
+    margin: 22% 0 0 0;
     font-family: 'Indie Flower', cursive;
 }
 
@@ -46,37 +54,37 @@ width: 57%;
     margin: -3% 1% 0;
     text-align: right;
     font-family: 'Orbit', sans-serif;
-  }
-  
-.paragraph{
+}
+
+.paragraph {
     font-size: 1.5rem;
     text-transform: uppercase;
     color: white;
     font-weight: 800;
     opacity: 0.8;
     font-weight: normal;
-    line-height:2.2rem;
+    line-height: 2.2rem;
     margin: 2rem 0;
     text-align: justify;
 }
 
-.hero-btns{
+.hero-btns {
     display: flex;
     align-items: center;
     gap: 2rem;
 }
 
-.hire-me{
+.hire-me {
     color: white;
     border-color: #cb450c;
 }
 
-.lets-talk{
+.lets-talk {
     background: transparent;
     color: white;
 }
 
-.social-icons{
+.social-icons {
     position: absolute;
     bottom: 7%;
     display: flex;
@@ -84,7 +92,7 @@ width: 57%;
     gap: 4rem;
 }
 
-.social-icons a{
+.social-icons a {
     color: white;
     display: flex;
     align-items: center;
@@ -95,11 +103,11 @@ width: 57%;
 }
 
 
-.social-icons a i{
+.social-icons a i {
     transition: 0.3s ease-in-out;
 }
 
-.social-icons a:hover i{
+.social-icons a:hover i {
     transition: 0.3s ease-in-out;
 
     transform: scale(1.3);
@@ -108,50 +116,107 @@ width: 57%;
 
 
 
-
-
-
 /* for MacBook ~ 13 inch */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3),
-       only screen and (min-resolution: 125dpi) {
-    .hero{
+only screen and (min-resolution: 125dpi) {
+    .hero {
         gap: 0;
         justify-content: space-between;
     }
 
-    .hero-image{
+    .hero-image {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         padding-bottom: 10%;
     }
-    
-    .hero-image img{
+
+    .hero-image img {
         width: 80%;
         animation-name: floating;
         animation-duration: 3s;
         animation-iteration-count: infinite;
         animation-timing-function: ease-in-out;
     }
-    
-    
-    .title{
-    font-size: 4.5rem;
+
+
+    .title {
+        font-size: 4.2rem;
     }
-    
+
     .tagline {
         font-size: 1.2rem;
         margin: -3% 0 0;
-      }
+    }
 
-    .paragraph{
+    .paragraph {
         font-size: 1rem;
     }
 
-    .social-icons a{
+    .social-icons a {
         font-size: 1.5rem;
     }
 }
 
+
+
+
+/* for mobile and tablet devices */
+
+@media only screen and (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        padding: 10% 5% 0 5%;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .hero-image {
+        padding: 15% 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-image img{
+        width: 100%;
+    }
+
+    .hero-btns {
+        gap: 1rem;
+    }
+
+    button {
+        font-size: 0.8rem;
+        padding: 0.7rem 2rem;
+    }
+
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .tagline {
+        text-align: left;
+        margin: 0;
+    }
+
+    .paragraph {
+        font-size: 1rem;
+        margin: 4% 0 5% 0;
+    }
+
+    .social-icons {
+        position: static;
+        justify-content: center;
+    }
+
+    .social-icons a {
+        font-size: 1.5rem;
+    }
+}
