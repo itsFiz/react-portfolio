@@ -33,7 +33,7 @@ const Contact = () => {
             <div className="social">
                 <span><a href="https://github.com/PrantoshB" target="_blank">GITHUB</a></span>
                 <span> <a href="https://www.linkedin.com/in/prantosh" target="_blank">LINKEDIN</a></span>
-                <span>   <a href="https://wellfound.com/u/prantosh-biswas">WELLFOUND</a></span>
+                <span>   <a href="https://wellfound.com/u/prantosh-biswas" target="_blank">WELLFOUND</a></span>
                 <span><a href="https://www.twitter.com/prantalks" target="_blank">TWITTER</a></span>
             </div>
         </div>
