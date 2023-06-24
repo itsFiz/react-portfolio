@@ -66,7 +66,7 @@ h3 span a {
 h3 span a:after {
     content: "";
     position: absolute;
-    bottom: 0px;
+    bottom: -5px;
     left: 0;
     height: 7px;
     width: 100%;
@@ -121,6 +121,7 @@ only screen and (min-resolution: 125dpi) {
 
     .footer-right h3 {
         font-size: 1.2rem;
+        letter-spacing: 0.1rem;
     }
 
     .interests {

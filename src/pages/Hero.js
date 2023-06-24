@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="description">
                 <h2 className='title'>hELLO. i aM PRANTOSH</h2>
                 <h3 className='tagline'>Software Engineer</h3>
-                <p className='paragraph'>I'm passionate about crafting exceptional digital experiences. With a keyboard as my paintbrush and lines of code as my canvas, I bring ideas to life in the virtual realm. Let's join forces and bring your digital dreams to fruition. Get in touch, and let's embark on this exciting journey together!</p>
+                <p className='paragraph'>I'm passionate about crafting exceptional digital experiences. I bring ideas to life in the virtual realm with a keyboard as my paintbrush and lines of code as my canvas. Let's join forces and bring your digital dreams to fruition. Get in touch, and let's embark on this exciting journey together!</p>
                 <div className="hero-btns">
                     <button className="hire-me">
                         <a href="https://prantoshb.github.io/Portfolio-Backend/assets/Prantosh-Biswas.pdf" target='_blank'>

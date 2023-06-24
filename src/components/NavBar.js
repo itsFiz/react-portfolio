@@ -19,7 +19,7 @@ const NavBar = () => {
       const scrollPercentage = (scrollTop / scrollHeight) * 100;
 
 
-      if (scrollPercentage >= 10) {
+      if (scrollPercentage >= 2) {
         setScroll(true);
 
         setNavbarStyle({
