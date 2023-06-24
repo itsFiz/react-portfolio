@@ -1,4 +1,4 @@
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,27 +10,30 @@ nav{
     z-index: 99;
     padding: 0 0 0 10%;
 }
-.menu{
+
+.menu {
     display: flex;
     margin-right: 20%;
 }
 
-.menu > li{
+.menu>li {
     padding: 0 0.75rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
-nav > h1 {
+.tophead>h1 {
     display: flex;
 }
 
-.name-logo{ 
-    font-family: monospace;
-    font-size: 1.5em;
+.name-logo {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.3em;
 }
 
-.blink{
-    height: 1.8rem;
+
+.blink {
+    height: 2rem;
     width: 15px;
     animation: blink .5s step-end infinite alternate;
     white-space: nowrap;
@@ -41,6 +44,121 @@ nav > h1 {
 
 @keyframes blink {
     50% {
-      border-color: transparent
+        border-color: transparent
     }
-  }
+}
+
+
+.menu-btn{
+    display: none;
+}
+
+
+.scroll-to-top{
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    display: none;
+}
+
+
+
+
+/* for mobile and tablet devices */
+
+@media only screen and (max-width: 768px) {
+
+    nav {
+        padding: 5% 0 0 5%;
+        flex-direction: column;
+        align-items: flex-start;
+        position: static;
+        background: transparent ;
+        backdrop-filter: blur(0);
+        width: auto;
+    }
+
+    .menu {
+        margin: 40% 15% !important;
+        padding: 0;
+        transition: transform 0.5s ease-in-out;
+        display: none;
+    }
+
+    .menu>li {
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+    .tophead>h1 {
+        margin: 0;
+        display: flex;
+    }
+
+    .name-logo {
+        font-size: 1.2em;
+    }
+
+    .blink {
+        height: 1.8rem;
+    }
+
+
+    .tophead{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menu-btn{
+        display: block;
+        background-image: url('../assets/equal.png');
+        width: 25px;
+        height: 25px;
+        background-size: cover;
+        margin-right: 5%;
+    }
+
+    .opened-btn{
+        background-image: url('../assets/close.png');
+        width: 25px;
+        height: 25px;
+        margin-right: 10%;
+    }
+
+
+    .open{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+
+    }
+
+    .nav-open{
+        transition: all 0.3s ease-in-out;
+        background: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(10px);
+        height: 110vh;
+        position: fixed;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+
+    .scroll-true{
+        z-index: 99;
+        background-color: #ffffff;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        display: flex;
+    }
+    
+}
+
+
