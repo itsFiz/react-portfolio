@@ -1,10 +1,9 @@
-import React from 'react'
-import './Projects.css'
-import { useEffect } from 'react'
-import { useSelector } from 'react-redux/es/hooks/useSelector'
-import { useDispatch } from 'react-redux'
-import { fetchProjects } from '../store/ProjectsSlice'
-import ProjectCard from '../components/ProjectCard'
+import React, { useEffect } from 'react';
+import './Projects.css';
+import { useSelector } from 'react-redux/es/hooks/useSelector';
+import { useDispatch } from 'react-redux';
+import { fetchProjects } from '../store/ProjectsSlice';
+import ProjectCard from '../components/ProjectCard';
 
 const Projects = () => {
   const dispatch = useDispatch();
@@ -12,14 +11,15 @@ const Projects = () => {
 
   useEffect(() => {
     dispatch(fetchProjects());
-    console.log(projects)
-  }, [])
+  }, [dispatch]);
 
   return (
-    <div className='projects' id='projects'>
-      <h1 className='title projects-title'>featuRed pRojecTs</h1>
-      <p className='projects-para'>Deployed 50+ scalable websites and cross-platform mobile applications.
-        Collaborated in 100+ projects with 30+ clients all around the world. Looking for next project/role.</p>
+    <div className="projects" id="projects">
+      <h1 className="title projects-title">featuRed pRojecTs</h1>
+      <p className="projects-para">
+        Deployed 50+ scalable websites and cross-platform mobile applications.
+        Collaborated in 100+ projects with 30+ clients all around the world. Looking for next project/role.
+      </p>
       <div className="projects-container">
         {
           projects.map((project, id) => (
@@ -32,12 +32,11 @@ const Projects = () => {
               source_link={project.source_link}
 
             />
-          )
-          )
+          ))
         }
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
