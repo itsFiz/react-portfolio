@@ -17,7 +17,10 @@ const About = () => {
         <p className='paragraph about-para'>
           My journey in the world of programming began in 2018 when I ventured into freelancing. Since then, I have had the opportunity to work on a wide range of projects, honing my skills and expanding my knowledge along the way. I have worked with various clients, both independently and as part of a team, to deliver innovative and user-friendly websites and mobile applications.
         </p>
-        <button className='hire-me'>Get my CV</button>
+        <button className='hire-me'>
+          <a href="https://prantoshb.github.io/Portfolio-Backend/assets/Prantosh-Biswas.pdf" target='_blank'>
+          GET MY CV
+          </a></button>
       </div>
       <div className="about-skills">
         <h2 className='skill-title'>Front-End</h2>
@@ -61,6 +64,11 @@ const About = () => {
             <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/640px-Bootstrap_logo.svg.png'
               alt="" />
             <p>Bootstrap</p>
+          </div>
+          <div className="skill">
+            <img src='https://www.rlogical.com/wp-content/uploads/2023/03/Rlogical-Blog-Images-thumbnail.webp'
+              alt="" />
+            <p>Next.js</p>
           </div>
         </div>
         <h2 className='skill-title'>Back-End</h2>
