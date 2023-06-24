@@ -6,7 +6,7 @@
 }
 
 .description {
-    width: 57%;
+    width: 60%;
 }
 
 .hero-image {
@@ -15,12 +15,14 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 10%;
+    width: 40%;
 }
 
 .hero-image img {
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
+    width: 80%;
     animation-timing-function: ease-in-out;
 }
 
@@ -42,22 +44,23 @@
 
 
 .title {
-    font-size: 5.75rem;
+    font-size:5.125rem;
     color: white;
     margin: 22% 0 0 0;
     font-family: 'Indie Flower', cursive;
+    overflow: hidden;
 }
 
 .tagline {
     font-size: 1.5rem;
     color: #cb450c;
-    margin: -3% 1% 0;
+    margin: -3% 15% 0;
     text-align: right;
     font-family: 'Orbit', sans-serif;
 }
 
 .paragraph {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     color: white;
     font-weight: 800;
@@ -66,6 +69,7 @@
     line-height: 2.2rem;
     margin: 2rem 0;
     text-align: justify;
+    width: 85%;
 }
 
 .hero-btns {
@@ -114,16 +118,16 @@
 }
 
 
-
-
 /* for MacBook ~ 13 inch */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3),
 only screen and (min-resolution: 125dpi) {
-    .hero {
-        gap: 0;
-        justify-content: space-between;
-    }
+
+  
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
 
     .hero-image {
         display: flex;
@@ -143,25 +147,24 @@ only screen and (min-resolution: 125dpi) {
 
 
     .title {
-        font-size: 4.2rem;
+        font-size: 4.55vw;
     }
 
     .tagline {
         font-size: 1.2rem;
-        margin: -3% 0 0;
+        margin: -3% 5% 0 0;
     }
 
     .paragraph {
         font-size: 1rem;
+        width: 95% !important;
+        margin: 2% 0 5% 0;
     }
 
     .social-icons a {
         font-size: 1.5rem;
     }
 }
-
-
-
 
 /* for mobile and tablet devices */
 
@@ -181,10 +184,7 @@ only screen and (min-resolution: 125dpi) {
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-
-    .hero-image img{
-        width: 100%;
+        width: 100% !important;
     }
 
     .hero-btns {
@@ -198,7 +198,8 @@ only screen and (min-resolution: 125dpi) {
 
 
     .title {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        margin: 5% 0;
     }
 
     .tagline {
@@ -209,6 +210,7 @@ only screen and (min-resolution: 125dpi) {
     .paragraph {
         font-size: 1rem;
         margin: 4% 0 5% 0;
+        width: 100% !important;
     }
 
     .social-icons {
@@ -220,3 +222,7 @@ only screen and (min-resolution: 125dpi) {
         font-size: 1.5rem;
     }
 }
+
+
+
+

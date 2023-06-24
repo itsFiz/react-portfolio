@@ -13,7 +13,7 @@ const About = () => {
   return (
     <section className='about' id='about'>
       <div className="about-me">
-        <h2 className='title'>aBOUT mE</h2>
+        <h2 className='title about-title'>aBOUT mE</h2>
         <p className='paragraph about-para'>
           My journey in the world of programming began in 2018 when I ventured into freelancing. Since then, I have had the opportunity to work on a wide range of projects, honing my skills and expanding my knowledge along the way. I have worked with various clients, both independently and as part of a team, to deliver innovative and user-friendly websites and mobile applications.
         </p>
