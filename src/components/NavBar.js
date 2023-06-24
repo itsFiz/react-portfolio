@@ -14,17 +14,18 @@ const NavBar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.scrollY || document.documentElement.scrollTop;
-      const isScrolled = scrollTop > 0;
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrollPercentage = (scrollTop / scrollHeight) * 100;
 
 
-      if (isScrolled) {
+      if (scrollPercentage >= 10) {
+        setScroll(true);
+
         setNavbarStyle({
-          backgroundColor: 'rgba(0, 0, 0, 0.1)',
-          backdropFilter: 'blur(10px)'
+          backgroundColor: 'rgba(0, 0, 0, 0.5)',
         });
 
-        setScroll(true);
       } else {
         setNavbarStyle({});
         setScroll(false);
@@ -41,7 +42,7 @@ const NavBar = () => {
   return (
 
     <>
-      <nav style={navbarStyle} className={`navbar ${open ? "nav-open" : ''}`}>
+      <nav style={navbarStyle} className={`navbar ${open ? "nav-open" : ''} ${scroll ? "scrolled" : ''}`}>
         <div className="tophead">
           <h1>
             <Link className='name-logo' spy={true} smooth={true} offset={50} duration={500} to="home">

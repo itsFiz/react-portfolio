@@ -11,6 +11,10 @@ nav {
     padding: 0 0 0 10%;
 }
 
+.scrolled{
+    backdrop-filter: blur(5px);
+}
+
 .menu {
     display: flex;
     margin-right: 20%;
