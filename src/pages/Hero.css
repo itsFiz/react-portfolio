@@ -1,12 +1,22 @@
 .hero {
   height: 100vh;
-  padding: 3% 5% 0 10%;
+  padding: 0 10%;
   display: flex;
-  gap: 5%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10%;
+  margin-bottom: 10%;
+}
+
+.hero-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10% 0 0;
 }
 
 .description {
-  width: 60%;
+  width: 75%;
 }
 
 .hero-image {
@@ -14,22 +24,17 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 10%;
-  width: 40%;
-}
-
-.hero-image img {
+  width: 35%;
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  width: 95%;
   animation-timing-function: ease-in-out;
 }
 
 .title {
-  font-size: 5.125rem;
+  font-size: 5rem;
   color: white;
-  margin: 22% 0 0 0;
+  margin: 0;
   font-family: 'Indie Flower', cursive;
   overflow: hidden;
 }
@@ -37,8 +42,7 @@
 .tagline {
   font-size: 1.5rem;
   color: #cb450c;
-  margin: -3% 15% 0;
-  text-align: right;
+  margin: -1% 0 0 0;
   font-family: 'Orbit', sans-serif;
 }
 
@@ -71,8 +75,6 @@
 }
 
 .social-icons {
-  position: absolute;
-  bottom: 5%;
   display: flex;
   align-items: center;
   gap: 4rem;
@@ -114,33 +116,16 @@
 /* for MacBook ~ 13 inch */
 
 @media only screen and (min-width: 900px) and (max-width: 1440px) {
-  .hero {
-    padding: 2% 10%;
-  }
-
-  .hero-image {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 10%;
-  }
-
-  .hero-image img {
-    width: 80%;
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-  }
-
   .title {
-    font-size: 4.55vw;
+    font-size: 4.5vw;
   }
 
   .tagline {
     font-size: 1.2rem;
-    margin: -3% 5% 0 0;
+  }
+
+  .hero-image {
+    width: 35%;
   }
 
   .paragraph {
@@ -156,10 +141,25 @@
 
 /* for mobile and tablet devices */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   .hero {
-    flex-direction: column;
     padding: 10% 5% 0 5%;
+    height: auto;
+    margin-bottom: 20%;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  .paragraph {
+    font-size: 0.85rem;
+    margin: 4% 0 5% 0;
+    width: 100% !important;
+  }
+
+  .hero-overlay {
+    flex-direction: column;
   }
 
   .description {
@@ -171,11 +171,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100% !important;
+    width: 80%;
   }
 
   .hero-btns {
     gap: 1rem;
+    margin-top: 10%;
   }
 
   button {
@@ -188,19 +189,7 @@
     margin: 5% 0;
   }
 
-  .tagline {
-    text-align: left;
-    margin: 0;
-  }
-
-  .paragraph {
-    font-size: 1rem;
-    margin: 4% 0 5% 0;
-    width: 100% !important;
-  }
-
   .social-icons {
-    position: static;
     justify-content: center;
   }
 
