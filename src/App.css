@@ -42,6 +42,15 @@ a {
   background-image: url('./assets/effect.png');
   animation: static 3s steps(5, end) infinite;
   z-index: 999;
+  background-size: 200px;
+}
+
+footer h3 {
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 2% 0;
+  letter-spacing: 0.1rem;
 }
 
 @keyframes static {
@@ -68,14 +77,6 @@ a {
   100% {
     background-position: 80% 91%;
   }
-}
-
-footer h3 {
-  text-align: center;
-  color: white;
-  margin: 0;
-  padding: 2% 0;
-  letter-spacing: 0.1rem;
 }
 
 @media screen and (min-resolution: 100dpi) {

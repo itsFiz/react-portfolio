@@ -1,5 +1,6 @@
 .projects {
-  padding: 5% 10%;
+  padding: 0 10%;
+  margin-bottom: 10%;
 }
 
 .projects-container {
@@ -34,7 +35,8 @@
   }
 
   .projects {
-    padding: 5% 5%;
+    padding:0 5%;
+    margin-bottom: 20%;
   }
 
   .projects-para {
