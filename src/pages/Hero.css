@@ -8,7 +8,7 @@
   margin-bottom: 10%;
 }
 
-.hero-overlay{
+.hero-overlay {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,7 +29,6 @@
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-
 }
 
 .title {
@@ -117,7 +116,6 @@
 /* for MacBook ~ 13 inch */
 
 @media only screen and (min-width: 900px) and (max-width: 1440px) {
-
   .title {
     font-size: 4.5vw;
   }
@@ -126,7 +124,7 @@
     font-size: 1.2rem;
   }
 
-  .hero-image{
+  .hero-image {
     width: 35%;
   }
 
@@ -150,15 +148,17 @@
     margin-bottom: 20%;
   }
 
-  .tagline{
+  .tagline {
     font-size: 1rem;
   }
 
-  .paragraph{
+  .paragraph {
     font-size: 0.85rem !important;
+    margin: 4% 0 5% 0;
+    width: 100% !important;
   }
 
-  .hero-overlay{
+  .hero-overlay {
     flex-direction: column;
   }
 
@@ -189,15 +189,8 @@
     margin: 5% 0;
   }
 
-  .tagline {
-    text-align: left;
-    margin: 0;
-  }
-
   .paragraph {
     font-size: 1rem;
-    margin: 4% 0 5% 0;
-    width: 100% !important;
   }
 
   .social-icons {

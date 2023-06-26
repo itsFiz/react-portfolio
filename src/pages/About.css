@@ -61,9 +61,7 @@
   font-family: 'Orbit', sans-serif;
 }
 
-
 @media only screen and (min-width: 900px) and (max-width: 1440px) {
-
   .about-skills {
     padding: 0 0 0 5%;
     border-left: 0.2px solid rgba(136, 158, 168, 0.2);

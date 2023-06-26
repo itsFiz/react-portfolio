@@ -137,10 +137,9 @@ h3 span a::after {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1920px) {
- .about-skills {
+  .about-skills {
     width: 80%;
   }
-
 
   .footer-right h3 {
     font-size: 1.5rem;
