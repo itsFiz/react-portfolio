@@ -8,6 +8,26 @@ import JEST from '../assets/jest.png';
 import Flutter from '../assets/flutter.png';
 import VSCode from '../assets/vscode.png';
 import Figma from '../assets/figma.png';
+import ReactIcon from '../assets/react.png'
+import RSpecLogo from '../assets/rspec.png'
+import NPMlogo from '../assets/npm.png'
+import GitLogo from '../assets/git.png'
+import GitHublogo from '../assets/github.png'
+import GMeet from '../assets/meet.png'
+import Zoomlogo from '../assets/zoom.webp'
+import SkypeLogo from '../assets/skype.png'
+import Slack from '../assets/slack.png'
+import WebPack from '../assets/webpack.png'
+import PostGres from '../assets/postgres.png'
+import Rails from '../assets/rails.png'
+import Canva from '../assets/canva.png'
+import CDT from '../assets/cdt.png'
+import CSS from '../assets/css.png'
+import BootStrap from '../assets/bootstrap.png'
+import NextJS from '../assets/next.webp'
+import JavaScript from '../assets/javascript.png'
+import Sass from '../assets/sass.png'
+import PostMan from '../assets/postman.png'
 
 const About = () => (
   <section className="about" id="about">
@@ -27,14 +47,14 @@ const About = () => (
       <div className="skills">
         <div className="skill">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207"
+            src={ReactIcon}
             alt=""
           />
           <p>React</p>
         </div>
         <div className="skill">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png"
+            src={JavaScript}
             alt=""
           />
           <p>JavaScript</p>
@@ -55,7 +75,7 @@ const About = () => (
         </div>
         <div className="skill">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/640px-CSS3_logo.svg.png"
+            src={CSS}
             alt=""
           />
           <p>CSS3</p>
@@ -69,21 +89,21 @@ const About = () => (
         </div>
         <div className="skill">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/512px-Sass_Logo_Color.svg.png?20150315202757"
+            src={Sass}
             alt=""
           />
           <p>SASS</p>
         </div>
         <div className="skill">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/640px-Bootstrap_logo.svg.png"
+            src={BootStrap}
             alt=""
           />
           <p>Bootstrap</p>
         </div>
         <div className="skill">
           <img
-            src="https://www.rlogical.com/wp-content/uploads/2023/03/Rlogical-Blog-Images-thumbnail.webp"
+            src={NextJS}
             alt=""
           />
           <p>Next.js</p>
@@ -100,14 +120,14 @@ const About = () => (
         </div>
         <div className="skill">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ruby_on_Rails_logo.svg/640px-Ruby_on_Rails_logo.svg.png"
+            src={Rails}
             alt=""
           />
           <p>Ruby on Rails</p>
         </div>
         <div className="skill">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/540px-Postgresql_elephant.svg.png?20080116191800"
+            src={PostGres}
             alt=""
           />
           <p>PostgreSQL</p>
@@ -117,7 +137,7 @@ const About = () => (
       <div className="skills">
         <div className="skill">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png?20220125121207"
+            src={ReactIcon}
             alt=""
           />
           <p>React Native</p>
@@ -131,15 +151,15 @@ const About = () => (
       <h2 className="skill-title">Tools</h2>
       <div className="skills">
         <div className="skill">
-          <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="" />
+          <img src={GitLogo} alt="" />
           <p>Git</p>
         </div>
         <div className="skill">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Github_logo_svg.svg/640px-Github_logo_svg.svg.png" alt="" />
+          <img src={GitHublogo} alt="" />
           <p>GitHub</p>
         </div>
         <div className="skill">
-          <img src="https://rspec.info/images/logo.png" alt="" />
+          <img src={RSpecLogo} alt="" />
           <p>RSpec</p>
         </div>
         <div className="skill">
@@ -147,7 +167,7 @@ const About = () => (
           <p>JEST</p>
         </div>
         <div className="skill">
-          <img src="https://avatars.githubusercontent.com/u/11260967?s=280&v=4" alt="" />
+          <img src={CDT} alt="" />
           <p>Chrome Dev Tools</p>
         </div>
         <div className="skill">
@@ -155,22 +175,22 @@ const About = () => (
           <p>VS Code</p>
         </div>
         <div className="skill">
-          <img src="https://raw.githubusercontent.com/webpack/media/master/logo/icon.png" alt="" />
+          <img src={WebPack} alt="" />
           <p>Webpack</p>
         </div>
         <div className="skill">
-          <img src="https://img.uxwing.com/wp-content/themes/uxwing/download/brands-social-media/postman-icon.png" alt="" />
+          <img src={PostMan} alt="" />
           <p>Postman</p>
         </div>
         <div className="skill">
-          <img src="https://static-00.iconduck.com/assets.00/npm-icon-2048x2048-3xqnd60o.png" alt="" />
+          <img src={NPMlogo} alt="" />
           <p>npm</p>
         </div>
       </div>
       <h2 className="skill-title">Design</h2>
       <div className="skills">
         <div className="skill">
-          <img src="https://freelogopng.com/images/all_img/1656733637logo-canva-png.png" alt="" />
+          <img src={Canva} alt="" />
           <p>Canva</p>
         </div>
         <div className="skill">
@@ -181,19 +201,19 @@ const About = () => (
       <h2 className="skill-title">Communication</h2>
       <div className="skills">
         <div className="skill">
-          <img src="https://www.pngkey.com/png/full/984-9844126_slack-new-slack-logo-png.png" alt="" />
+          <img src={Slack} alt="" />
           <p>Slack</p>
         </div>
         <div className="skill">
-          <img src="https://www.freepnglogos.com/uploads/skype-logo-png/skype-logo-vector-icon-template-clipart-download-0.png" alt="" />
+          <img src={SkypeLogo} alt="" />
           <p>Skype</p>
         </div>
         <div className="skill">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Google_Meet_icon_%282020%29.svg/2491px-Google_Meet_icon_%282020%29.svg.png" alt="" />
+          <img src={GMeet} alt="" />
           <p>Google Meet</p>
         </div>
         <div className="skill">
-          <img src="https://static.vecteezy.com/system/resources/previews/012/871/376/original/zoom-logo-in-blue-colors-meetings-app-logotype-illustration-free-png.png" alt="" />
+          <img src={Zoomlogo} alt="" />
           <p>Zoom</p>
         </div>
       </div>
