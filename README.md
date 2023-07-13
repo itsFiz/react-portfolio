@@ -1,10 +1,6 @@
 <a name="readme-top"></a>
+
 <h1 align='center'> Portfolio - Prantosh Biswas 🤘 </h1>
-
-
-
-
-
 
 
 # Table of Contents
@@ -44,7 +40,7 @@ This Personal Portfolio is a dynamic and interactive portfolio website built wit
 </details>
 
 ### App Screenshot
-![screenshot](https://github.com/PrantoshB/React-Portfolio/blob/dev/screenshot.jpg)
+![screenshot](https://github.com/PrantoshB/React-Portfolio/blob/main/Screenshot%20from%202023-07-01%2022-15-34.png)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
