@@ -25,7 +25,7 @@
 
 # Portfolio - Prantosh Biswas 🤘 <a name="about-project"></a>
 
-This Personal Portfolio is a dynamic and interactive portfolio website built with React and Redux in the front-end and Jekyll in the back-end. It provides a modern and visually appealing platform for showcasing your skills, projects, and achievements to potential employers or clients.
+This Personal Portfolio is a dynamic and interactive portfolio website built with React and Redux in the Front-End and Jekyll in the Back-End. It provides a modern and visually appealing platform for showcasing your skills, projects, and achievements to potential employers or clients.
 
 ## 🛠 Built With <a name="built-with"></a>
 
