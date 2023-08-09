@@ -140,3 +140,8 @@ Give a ⭐️ if you like this project!
 This project is copyright free. But I'll be grateful if you consider mentioning me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<h2>Support 💗</h2>
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/prantosh)
