@@ -28,6 +28,7 @@ import NextJS from '../assets/next.webp'
 import JavaScript from '../assets/javascript.png'
 import Sass from '../assets/sass.png'
 import PostMan from '../assets/postman.png'
+import WordPress from '../assets/wordpress.png'
 
 const About = () => (
   <section className="about" id="about">
@@ -185,6 +186,10 @@ const About = () => (
         <div className="skill">
           <img src={NPMlogo} alt="" />
           <p>npm</p>
+        </div>
+        <div className="skill">
+          <img src={WordPress} alt="" />
+          <p>WordPress</p>
         </div>
       </div>
       <h2 className="skill-title">Design</h2>
