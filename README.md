@@ -142,6 +142,6 @@ This project is copyright free. But I'll be grateful if you consider mentioning 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<h2>Support 💗</h2>
+<h2>Support if you can 💗</h2>
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/prantosh)
