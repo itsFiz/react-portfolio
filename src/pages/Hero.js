@@ -35,7 +35,7 @@ const Hero = () => (
         <a href="https://wellfound.com/u/prantosh-biswas" target="_blank" rel="noreferrer">
           <i className="fab fa-angellist" />
         </a>
-        <a href="https://www.twitter.com/prantalks" target="_blank" rel="noreferrer">
+        <a href="https://www.twitter.com/prangasm" target="_blank" rel="noreferrer">
           <i className="fa-brands fa-twitter" />
         </a>
          <a href="https://www.youtube.com/@prantalks" target="_blank" rel="noreferrer">
