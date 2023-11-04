@@ -1,18 +1,18 @@
 import React from 'react';
 import './Hero.css';
 import { Link } from 'react-scroll';
-import Imu from '../assets/imu.png';
+import Imu from '../assets/fizloki.jpeg';
 
 const Hero = () => (
   <div className="hero" id="home">
     <div className="hero-overlay">
       <div className="description">
-        <h2 className="title">hELLO. i aM PRANTOSH</h2>
-        <h3 className="tagline">Breaking keyboards and pushing pixels since 2018</h3>
+        <h2 className="title">hELLO. i aM Hafiz Kadir</h2>
+        <h3 className="tagline">I do AR, Fullstack Dev, Ui/Ux, Photography and stream on Twitch for fun!</h3>
         <p className="paragraph">I'm passionate about crafting exceptional digital experiences. I bring ideas to life in the virtual realm with a keyboard as my paintbrush and lines of code as my canvas. Let's join forces and bring your digital dreams to fruition. Get in touch, and let's embark on this exciting journey together!</p>
         <div className="hero-btns">
           <button className="hire-me">
-            <a href="https://drive.google.com/file/d/1RIQlxcFspH89xvugEeEyvgSG_ABMX3rI/view?usp=drive_link" target="_blank" rel="noreferrer">
+            <a href="https://drive.google.com/file/d/1jUhLyp8Ww0NMzZK4gPTCoL_KMuQfd8eC/view?usp=sharing" target="_blank" rel="noreferrer">
               GET MY CV
             </a>
           </button>
@@ -23,23 +23,30 @@ const Hero = () => (
           </button>
         </div>
       </div>
-      <img src={Imu} alt="prantosh" className="hero-image" />
+      <img src={Imu} alt="Fiz" className="hero-image" />
     </div>
     <div className="social-icons">
-        <a href="https://github.com/PrantoshB" target="_blank" rel="noreferrer">
+        <a href="https://github.com/itsFiz" target="_blank" rel="noreferrer">
           <i className="fa-brands fa-github" />
         </a>
-        <a href="https://www.linkedin.com/in/prantosh" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/hfzkdr/" target="_blank" rel="noreferrer">
           <i className="fa-brands fa-linkedin-in" />
         </a>
-        <a href="https://wellfound.com/u/prantosh-biswas" target="_blank" rel="noreferrer">
-          <i className="fab fa-angellist" />
-        </a>
+        
         <a href="https://www.twitter.com/prangasm" target="_blank" rel="noreferrer">
           <i className="fa-brands fa-twitter" />
         </a>
-         <a href="https://www.youtube.com/@prantalks" target="_blank" rel="noreferrer">
+         <a href="https://www.youtube.com/@criedfizcken6200" target="_blank" rel="noreferrer">
           <i className="fa-brands fa-youtube" />
+        </a>
+        <a href="https://discord.gg/EhkJZpVyvX" target="_blank" rel="noreferrer">
+          <i className="fa-brands fa-discord" />
+        </a>
+        <a href="https://www.instagram.com/criedfizcken/" target="_blank" rel="noreferrer">
+          <i className="fa-brands fa-instagram" />
+        </a>
+        <a href="https://steamcommunity.com/id/itsFizzz/" target="_blank" rel="noreferrer">
+          <i className="fa-brands fa-steam" />
         </a>
       </div>
   </div>

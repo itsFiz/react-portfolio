@@ -43,7 +43,7 @@ const NavBar = () => {
         <div className="tophead">
           <h1>
             <Link className="name-logo" spy smooth offset={50} duration={500} to="home">
-              prantosh.
+              Hafiz Kadir
             </Link>
             {' '}
             <span className="blink" />
@@ -54,23 +54,23 @@ const NavBar = () => {
 
           <li>
             <Link spy smooth offset={50} duration={500} onClick={toggleMenu} to="home">
-              home,
+              Home,
             </Link>
           </li>
           <li>
             <Link spy smooth offset={50} duration={500} onClick={toggleMenu} to="about">
-              about,
+              About,
             </Link>
           </li>
           <li>
             <Link spy smooth offset={50} duration={500} onClick={toggleMenu} to="projects">
-              projects,
+              Projects,
             </Link>
           </li>
           <li>
             <li>
               <Link spy smooth offset={50} duration={500} onClick={toggleMenu} to="contact">
-                contact
+                Contact
               </Link>
             </li>
           </li>
