@@ -52,6 +52,13 @@
   /* You can adjust the width and height to make the images larger as needed. */
 }
 
+.skill .image2 {
+  width: 70px; /* Adjust the width to your preference */
+  height: 70px; /* Adjust the height to maintain aspect ratio */
+  /* You can adjust the width and height to make the images larger as needed. */
+}
+
+
 .skill-title {
   color: white;
   font-size: 2rem;

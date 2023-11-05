@@ -23,7 +23,7 @@ import JavaScript from '../assets/javascript.png'
 import Sass from '../assets/sass.png'
 import PostMan from '../assets/postman.png'
 import MySql from '../assets/mysqll.png'
-import Django from '../assets/django.png'
+import Django from '../assets/djangoo.png'
 import Firebase from '../assets/firebase.png'
 import Unity from '../assets/unity.png'
 import xD from '../assets/xD-logo.png'
@@ -37,6 +37,18 @@ import Perkeso from '../assets/perkeso.png'
 import Litera from '../assets/litera.png'
 import Pixyz from '../assets/pixyz.ico'
 import XMind from '../assets/XMins.ico'
+import SQLyog from '../assets/SQLyog.ico'
+import PostgreSQL from '../assets/postgres.png'
+import Android from '../assets/androidstudio.png'
+import Blender from '../assets/blender.png'
+import DsMax from '../assets/3dsmax.png'
+import Maya from '../assets/maya.png'
+import Vuforia from '../assets/vuforiaa.png'
+import Gitlab from '../assets/gitlab.svg'
+import Bitbucket from '../assets/bitbucket.png'
+
+
+
 
 
 
@@ -54,7 +66,9 @@ const About = () => (
         <a href="https://drive.google.com/file/d/1jUhLyp8Ww0NMzZK4gPTCoL_KMuQfd8eC/view?usp=sharing" target="_blank" rel="noreferrer">
           GET MY CV
         </a>
+       
       </button>
+      
     </div>
     <div className="about-skills">
     <h2 className="skill-title">Clients & Collaborators</h2>
@@ -181,12 +195,52 @@ const About = () => (
         </div>
         <div className="skill">
           <img
+            src={SQLyog}
+            alt=""
+          />
+          <p>SQLyog</p>
+        </div>
+        <div className="skill">
+          <img
+            src={PostgreSQL}
+            alt=""
+          />
+          <p>PostgreSQL</p>
+        </div>
+        <div className="skill">
+          <img
             src={Firebase}
             alt=""
           />
           <p>Firebase</p>
         </div>
         
+      </div>
+      <h2 className="skill-title">3D</h2>
+      <div className="skills">
+      <div className="skill">
+          <img src={Pixyz} alt="" />
+          <p>Pixyz</p>
+        </div>
+       
+        <div className="skill">
+          <img src={Blender} alt="" />
+          <p>Blender</p>
+        </div>
+         <div className="skill">
+          <img src={Unity} alt="" />
+          <p>Unity</p>
+        </div>
+        <div className="skill">
+          <img src={Vuforia} alt="" />
+          <p>Vuforia</p>
+        </div>
+        
+        
+        <div className="skill">
+          <img src={DsMax} alt="" />
+          <p>3ds Max</p>
+        </div>
       </div>
       <h2 className="skill-title">Mobile</h2>
       <div className="skills">
@@ -201,14 +255,17 @@ const About = () => (
           <img src={Flutter} alt="" />
           <p>Flutter</p>
         </div>
+       
         <div className="skill">
-          <img src={Unity} alt="" />
-          <p>Unity</p>
+          <img src={Android} alt="" />
+          <p>Android Studio</p>
         </div>
 
       </div>
-      <h2 className="skill-title">Tools</h2>
+
+      <h2 className="skill-title">Git</h2>
       <div className="skills">
+        
         <div className="skill">
           <img src={GitLogo} alt="" />
           <p>Git</p>
@@ -217,6 +274,19 @@ const About = () => (
           <img src={GitHublogo} alt="" />
           <p>GitHub</p>
         </div>
+        <div className="skill">
+          <img src={Gitlab} alt="" />
+          <p>GitLab</p>
+        </div>
+        <div className="skill">
+          <img src={Bitbucket} alt="" />
+          <p>Bitbucket</p>
+        </div>
+        </div>
+      
+      <h2 className="skill-title">Tools</h2>
+      <div className="skills">
+       
         <div className="skill">
           <img src={RSpecLogo} alt="" />
           <p>RSpec</p>
@@ -241,26 +311,7 @@ const About = () => (
         </div>
        
       </div>
-      <h2 className="skill-title">3D</h2>
-      <div className="skills">
-      <div className="skill">
-          <img src={Pixyz} alt="" />
-          <p>Pixyz</p>
-        </div>
-       
-        <div className="skill">
-          <img src={SkypeLogo} alt="" />
-          <p>Skype</p>
-        </div>
-        <div className="skill">
-          <img src={GMeet} alt="" />
-          <p>Google Meet</p>
-        </div>
-        <div className="skill">
-          <img src={Zoomlogo} alt="" />
-          <p>Zoom</p>
-        </div>
-      </div>
+      
       <h2 className="skill-title">Design</h2>
       <div className="skills">
         <div className="skill">

@@ -19,7 +19,20 @@ export const { setProjects } = projectsSlice.actions;
 export default projectsSlice.reducer;
 
 export const fetchProjects = () => async (dispatch) => {
-  const response = await fetch('https://prantoshb.github.io/Portfolio-Backend/portfolio.json');
-  const data = await response.json();
-  dispatch(setProjects(data));
+  try {
+    // Use the relative path to your JSON file
+    const response = await fetch('src\projectportfolio.json'); // Update the path accordingly
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+
+    const data = await response.json();
+    dispatch(setProjects(data));
+  } catch (error) {
+    // Handle any errors that may occur during the fetch
+    console.error('Error fetching data:', error);
+  }
 };
+
+
