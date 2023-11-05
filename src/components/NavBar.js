@@ -41,7 +41,9 @@ const NavBar = () => {
     <>
       <nav style={navbarStyle} className={`navbar ${open ? 'nav-open' : ''} ${scroll ? 'scrolled' : ''}`}>
         <div className="tophead">
+          
           <h1>
+            <img src='src\assets\f.png' alt='logo'  className='logo-image'></img>
             <Link className="name-logo" spy smooth offset={50} duration={500} to="home">
               Hafiz Kadir
             </Link>

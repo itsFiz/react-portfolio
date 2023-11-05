@@ -45,6 +45,11 @@ nav {
   display: block;
 }
 
+.logo-image{
+  height: 4rem;
+  width: 4rem;
+}
+
 @keyframes blink {
   50% {
     border-color: transparent;

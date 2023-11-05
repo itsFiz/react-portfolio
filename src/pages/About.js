@@ -46,14 +46,8 @@ import Maya from '../assets/maya.png'
 import Vuforia from '../assets/vuforiaa.png'
 import Gitlab from '../assets/gitlab.svg'
 import Bitbucket from '../assets/bitbucket.png'
-
-
-
-
-
-
-
-
+import Innoveam from '../assets/innoveam.png'
+import Drawio from '../assets/drawio.png'
 
 const About = () => (
   <section className="about" id="about">
@@ -85,6 +79,10 @@ const About = () => (
           <p>UOB</p>
         </div>
         <div className="skill">
+          <img src={Innoveam} alt="" />
+          <p>Innoveam</p>
+        </div>
+        <div className="skill">
           <img src={UPM} alt="" />
           <p>UPM</p>
         </div>
@@ -98,7 +96,7 @@ const About = () => (
         </div>
         <div className="skill">
           <img className='large-image' src={Litera} alt="" />
-          <p>Litera Learn</p>
+          <p>LiteraLearn</p>
         </div>
        
         </div>
@@ -309,7 +307,10 @@ const About = () => (
           <img src={NPMlogo} alt="" />
           <p>npm</p>
         </div>
-       
+        <div className="skill">
+          <img src={Drawio} alt="" />
+          <p>draw.io</p>
+        </div>
       </div>
       
       <h2 className="skill-title">Design</h2>
