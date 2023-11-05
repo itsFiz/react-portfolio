@@ -26,7 +26,7 @@ import MySql from '../assets/mysqll.png'
 import Django from '../assets/djangoo.png'
 import Firebase from '../assets/firebase.png'
 import Unity from '../assets/unity.png'
-import xD from '../assets/xD-logo.png'
+import xD from '../assets/xdd.png'
 import SpringBoot from '../assets/springboot.png'
 import Teams from '../assets/TEAMS.png'
 import Petronas from '../assets/petronas-logo.png'
@@ -42,7 +42,6 @@ import PostgreSQL from '../assets/postgres.png'
 import Android from '../assets/androidstudio.png'
 import Blender from '../assets/blender.png'
 import DsMax from '../assets/3dsmax.png'
-import Maya from '../assets/maya.png'
 import Vuforia from '../assets/vuforiaa.png'
 import Gitlab from '../assets/gitlab.svg'
 import Bitbucket from '../assets/bitbucket.png'
@@ -54,7 +53,7 @@ const About = () => (
     <div className="about-me">
       <h2 className="title about-title">aBOUT mE</h2>
       <p className="paragraph about-para">
-      A Computer Science (Multimedia) graduate from Universiti Putra Malaysia, currently an IT Associate on Digital Banking domain at UOB Innovation Hub 2. Passionate about UI/UX designing, 3D Modeling, Augmented Reality, Mobile App Development, Photography, and Video Editing.
+      A Computer Science (Multimedia) graduate from Universiti Putra Malaysia, currently an IT Associate - Digital Banking at UOB Innovation Hub 2. Passionate about UI/UX designing, 3D Modeling, Augmented Reality, Mobile App Development, Photography, and Video Editing.
       </p>
       <button className="hire-me">
         <a href="https://drive.google.com/file/d/1jUhLyp8Ww0NMzZK4gPTCoL_KMuQfd8eC/view?usp=sharing" target="_blank" rel="noreferrer">
@@ -355,15 +354,17 @@ const About = () => (
       
       <h2 className="skill-title">Soft Skills</h2>
       <div className="skills">
-        <p className="soft-skill">Remote Pair-Programming</p>
+        <p className="soft-skill">Critical Thinking</p>
         <p className="soft-skill">Communication</p>
-        <p className="soft-skill">Mentoring</p>
+        <p className="soft-skill">Teamwork</p>
         <p className="soft-skill">Collaboration</p>
+        <p className="soft-skill">Creativity</p>
+
         <p className="soft-skill">Leadership</p>
         <p className="soft-skill">Problem Solving</p>
         <p className="soft-skill">Time Management</p>
-        <p className="soft-skill">Decision Making</p>
-        <p className="soft-skill">Critical Thinking</p>
+        <p className="soft-skill">Emotional Intelligence</p>
+        <p className="soft-skill">Adaptability</p>
       </div>
     </div>
 
