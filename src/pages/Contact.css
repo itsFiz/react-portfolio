@@ -76,8 +76,9 @@ h3 span a::after {
 .social {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 4rem;
 }
+
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3),
   only screen and (min-resolution: 125dpi) {

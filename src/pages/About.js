@@ -4,7 +4,6 @@ import ReduxIcon from '../assets/redux.png';
 import HTML from '../assets/html.png';
 import jQuery from '../assets/jquery.png';
 import Ruby from '../assets/ruby.png';
-import JEST from '../assets/jest.png';
 import Flutter from '../assets/flutter.png';
 import VSCode from '../assets/vscode.png';
 import Figma from '../assets/figma.png';
@@ -16,34 +15,80 @@ import GitHublogo from '../assets/github.png'
 import GMeet from '../assets/meet.png'
 import Zoomlogo from '../assets/zoom.webp'
 import SkypeLogo from '../assets/skype.png'
-import Slack from '../assets/slack.png'
-import WebPack from '../assets/webpack.png'
-import PostGres from '../assets/postgres.png'
-import Rails from '../assets/rails.png'
 import Canva from '../assets/canva.png'
 import CDT from '../assets/cdt.png'
 import CSS from '../assets/css.png'
 import BootStrap from '../assets/bootstrap.png'
-import NextJS from '../assets/next.webp'
 import JavaScript from '../assets/javascript.png'
 import Sass from '../assets/sass.png'
 import PostMan from '../assets/postman.png'
-import WordPress from '../assets/wordpress.png'
+import MySql from '../assets/mysqll.png'
+import Django from '../assets/django.png'
+import Firebase from '../assets/firebase.png'
+import Unity from '../assets/unity.png'
+import xD from '../assets/xD-logo.png'
+import SpringBoot from '../assets/springboot.png'
+import Teams from '../assets/TEAMS.png'
+import Petronas from '../assets/petronas-logo.png'
+import UOB from '../assets/uoblogo.jpg'
+import UPM from '../assets/upmm.png'
+import Pharmaniaga from '../assets/1200px-Pharmaniaga_logo.png'
+import Perkeso from '../assets/perkeso.png'
+import Litera from '../assets/litera.png'
+import Pixyz from '../assets/pixyz.ico'
+import XMind from '../assets/XMins.ico'
+
+
+
+
+
 
 const About = () => (
   <section className="about" id="about">
     <div className="about-me">
       <h2 className="title about-title">aBOUT mE</h2>
       <p className="paragraph about-para">
-        My journey in the world of programming began in 2018, when I ventured into freelancing. Since then, I have had the opportunity to work on a wide range of projects, honing my skills and expanding my knowledge along the way. I have worked with various clients, both independently and as part of a team, to deliver innovative and user-friendly websites and mobile applications.
+      A Computer Science (Multimedia) graduate from Universiti Putra Malaysia, currently an IT Associate on Digital Banking domain at UOB Innovation Hub 2. Passionate about UI/UX designing, 3D Modeling, Augmented Reality, Mobile App Development, Photography, and Video Editing.
       </p>
       <button className="hire-me">
-        <a href="https://drive.google.com/file/d/1RIQlxcFspH89xvugEeEyvgSG_ABMX3rI/view?usp=drive_link" target="_blank" rel="noreferrer">
+        <a href="https://drive.google.com/file/d/1jUhLyp8Ww0NMzZK4gPTCoL_KMuQfd8eC/view?usp=sharing" target="_blank" rel="noreferrer">
           GET MY CV
         </a>
       </button>
     </div>
     <div className="about-skills">
+    <h2 className="skill-title">Clients & Collaborators</h2>
+    <div className="skills">
+        <div className="skill">
+          <img
+            src={Petronas}
+            alt=""
+          />
+          <p>Petronas</p>
+        </div>
+        <div className="skill">
+          <img src={UOB} alt="" />
+          <p>UOB</p>
+        </div>
+        <div className="skill">
+          <img src={UPM} alt="" />
+          <p>UPM</p>
+        </div>
+        <div className="skill">
+          <img src={Perkeso} alt="" />
+          <p>Perkeso</p>
+        </div>
+        <div className="skill">
+          <img className='large-image' src={Pharmaniaga} alt="" />
+          <p>Pharmaniaga</p>
+        </div>
+        <div className="skill">
+          <img className='large-image' src={Litera} alt="" />
+          <p>Litera Learn</p>
+        </div>
+       
+        </div>
+      
       <h2 className="skill-title">Front-End</h2>
       <div className="skills">
         <div className="skill">
@@ -102,13 +147,7 @@ const About = () => (
           />
           <p>Bootstrap</p>
         </div>
-        <div className="skill">
-          <img
-            src={NextJS}
-            alt=""
-          />
-          <p>Next.js</p>
-        </div>
+        
       </div>
       <h2 className="skill-title">Back-End</h2>
       <div className="skills">
@@ -121,18 +160,33 @@ const About = () => (
         </div>
         <div className="skill">
           <img
-            src={Rails}
+            src={Django}
             alt=""
           />
-          <p>Ruby on Rails</p>
+          <p>Django</p>
         </div>
         <div className="skill">
           <img
-            src={PostGres}
+            src={SpringBoot}
             alt=""
           />
-          <p>PostgreSQL</p>
+          <p>SpringBoot</p>
         </div>
+        <div className="skill">
+          <img
+            src={MySql}
+            alt=""
+          />
+          <p>MySQL</p>
+        </div>
+        <div className="skill">
+          <img
+            src={Firebase}
+            alt=""
+          />
+          <p>Firebase</p>
+        </div>
+        
       </div>
       <h2 className="skill-title">Mobile</h2>
       <div className="skills">
@@ -146,6 +200,10 @@ const About = () => (
         <div className="skill">
           <img src={Flutter} alt="" />
           <p>Flutter</p>
+        </div>
+        <div className="skill">
+          <img src={Unity} alt="" />
+          <p>Unity</p>
         </div>
 
       </div>
@@ -163,10 +221,7 @@ const About = () => (
           <img src={RSpecLogo} alt="" />
           <p>RSpec</p>
         </div>
-        <div className="skill">
-          <img src={JEST} alt="" />
-          <p>JEST</p>
-        </div>
+        
         <div className="skill">
           <img src={CDT} alt="" />
           <p>Chrome Dev Tools</p>
@@ -175,10 +230,7 @@ const About = () => (
           <img src={VSCode} alt="" />
           <p>VS Code</p>
         </div>
-        <div className="skill">
-          <img src={WebPack} alt="" />
-          <p>Webpack</p>
-        </div>
+        
         <div className="skill">
           <img src={PostMan} alt="" />
           <p>Postman</p>
@@ -187,28 +239,15 @@ const About = () => (
           <img src={NPMlogo} alt="" />
           <p>npm</p>
         </div>
-        <div className="skill">
-          <img src={WordPress} alt="" />
-          <p>WordPress</p>
-        </div>
+       
       </div>
-      <h2 className="skill-title">Design</h2>
+      <h2 className="skill-title">3D</h2>
       <div className="skills">
-        <div className="skill">
-          <img src={Canva} alt="" />
-          <p>Canva</p>
+      <div className="skill">
+          <img src={Pixyz} alt="" />
+          <p>Pixyz</p>
         </div>
-        <div className="skill">
-          <img src={Figma} alt="" />
-          <p>Figma</p>
-        </div>
-      </div>
-      <h2 className="skill-title">Communication</h2>
-      <div className="skills">
-        <div className="skill">
-          <img src={Slack} alt="" />
-          <p>Slack</p>
-        </div>
+       
         <div className="skill">
           <img src={SkypeLogo} alt="" />
           <p>Skype</p>
@@ -222,6 +261,46 @@ const About = () => (
           <p>Zoom</p>
         </div>
       </div>
+      <h2 className="skill-title">Design</h2>
+      <div className="skills">
+        <div className="skill">
+          <img src={Canva} alt="" />
+          <p>Canva</p>
+        </div>
+        <div className="skill">
+          <img src={Figma} alt="" />
+          <p>Figma</p>
+        </div>
+        <div className="skill">
+          <img src={xD} alt="" />
+          <p>Adobe XD</p>
+        </div>
+        <div className="skill">
+          <img src={XMind} alt="" />
+          <p>XMind </p>
+        </div>
+      </div>
+      <h2 className="skill-title">Communication</h2>
+      <div className="skills">
+      <div className="skill">
+          <img src={Teams} alt="" />
+          <p>Teams</p>
+        </div>
+       
+        <div className="skill">
+          <img src={SkypeLogo} alt="" />
+          <p>Skype</p>
+        </div>
+        <div className="skill">
+          <img src={GMeet} alt="" />
+          <p>Google Meet</p>
+        </div>
+        <div className="skill">
+          <img src={Zoomlogo} alt="" />
+          <p>Zoom</p>
+        </div>
+      </div>
+      
       <h2 className="skill-title">Soft Skills</h2>
       <div className="skills">
         <p className="soft-skill">Remote Pair-Programming</p>

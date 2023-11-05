@@ -33,7 +33,7 @@ const Hero = () => (
           <i className="fa-brands fa-linkedin-in" />
         </a>
         
-        <a href="https://www.twitter.com/prangasm" target="_blank" rel="noreferrer">
+        <a href="https://www.twitter.com/criedfizcken" target="_blank" rel="noreferrer">
           <i className="fa-brands fa-twitter" />
         </a>
          <a href="https://www.youtube.com/@criedfizcken6200" target="_blank" rel="noreferrer">
