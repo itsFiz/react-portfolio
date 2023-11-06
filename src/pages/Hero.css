@@ -41,7 +41,7 @@
 
 .tagline {
   font-size: 1.5rem;
-  color: #cb450c;
+  color: #fff;
   margin: -1% 0 0 0;
   font-family: 'Orbit', sans-serif;
 }
@@ -62,11 +62,17 @@
   display: flex;
   align-items: center;
   gap: 2rem;
+  color: #c3073f;
 }
 
 .hire-me {
-  color: white;
-  border-color: #cb450c;
+  color: #fff;
+  background-color: #c3073f;
+}
+
+.hire-me:hover {
+  color: #fff;
+  background-color: #ee4c7c;
 }
 
 .lets-talk {

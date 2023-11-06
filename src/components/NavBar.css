@@ -2,7 +2,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: white;
+  color: #950740;
   position: fixed;
   top: 0;
   background-color: transparent;
@@ -45,7 +45,7 @@ nav {
   display: block;
 }
 
-.logo-image{
+.logo-image {
   height: 4rem;
   width: 4rem;
 }

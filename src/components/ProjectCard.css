@@ -41,11 +41,12 @@
   color: white;
   border: 0;
   cursor: none;
+  background-color: #950740;
 }
 
 .tech-stack:hover {
   border: none;
-  background-color: #cb450c;
+  background-color: #ee4c7c;
   color: white;
 }
 

@@ -47,7 +47,13 @@
 }
 
 .skill .large-image {
-  width: 110px; /* Adjust the width to your preference */
+  width: 120px; /* Adjust the width to your preference */
+  height: 20px; /* Adjust the height to maintain aspect ratio */
+  /* You can adjust the width and height to make the images larger as needed. */
+}
+
+.skill .large-image2 {
+  width: 90px; /* Adjust the width to your preference */
   height: 20px; /* Adjust the height to maintain aspect ratio */
   /* You can adjust the width and height to make the images larger as needed. */
 }
@@ -57,7 +63,6 @@
   height: 70px; /* Adjust the height to maintain aspect ratio */
   /* You can adjust the width and height to make the images larger as needed. */
 }
-
 
 .skill-title {
   color: white;

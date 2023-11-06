@@ -1,12 +1,12 @@
-import React from 'react';
-import './About.css';
-import ReduxIcon from '../assets/redux.png';
-import HTML from '../assets/html.png';
-import jQuery from '../assets/jquery.png';
-import Ruby from '../assets/ruby.png';
-import Flutter from '../assets/flutter.png';
-import VSCode from '../assets/vscode.png';
-import Figma from '../assets/figma.png';
+import React from 'react'
+import './About.css'
+import ReduxIcon from '../assets/redux.png'
+import HTML from '../assets/html.png'
+import jQuery from '../assets/jquery.png'
+import Ruby from '../assets/ruby.png'
+import Flutter from '../assets/flutter.png'
+import VSCode from '../assets/vscode.png'
+import Figma from '../assets/figma.png'
 import ReactIcon from '../assets/react.png'
 import RSpecLogo from '../assets/rspec.png'
 import NPMlogo from '../assets/npm.png'
@@ -53,24 +53,26 @@ const About = () => (
     <div className="about-me">
       <h2 className="title about-title">aBOUT mE</h2>
       <p className="paragraph about-para">
-      A Computer Science (Multimedia) graduate from Universiti Putra Malaysia, currently an IT Associate - Digital Banking at UOB Innovation Hub 2. Passionate about UI/UX designing, 3D Modeling, Augmented Reality, Mobile App Development, Photography, and Video Editing.
+        A Computer Science (Multimedia) graduate from Universiti Putra Malaysia,
+        currently an IT Associate - Digital Banking at UOB Innovation Hub 2.
+        Passionate about UI/UX designing, 3D Modeling, Augmented Reality, Mobile
+        App Development, Photography, and Video Editing.
       </p>
       <button className="hire-me">
-        <a href="https://drive.google.com/file/d/1jUhLyp8Ww0NMzZK4gPTCoL_KMuQfd8eC/view?usp=sharing" target="_blank" rel="noreferrer">
+        <a
+          href="https://drive.google.com/file/d/1jUhLyp8Ww0NMzZK4gPTCoL_KMuQfd8eC/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
           GET MY CV
         </a>
-       
       </button>
-      
     </div>
     <div className="about-skills">
-    <h2 className="skill-title">Clients & Collaborators</h2>
-    <div className="skills">
+      <h2 className="skill-title">Clients & Collaborators</h2>
+      <div className="skills">
         <div className="skill">
-          <img
-            src={Petronas}
-            alt=""
-          />
+          <img src={Petronas} alt="" />
           <p>Petronas</p>
         </div>
         <div className="skill">
@@ -90,141 +92,93 @@ const About = () => (
           <p>Perkeso</p>
         </div>
         <div className="skill">
-          <img className='large-image' src={Pharmaniaga} alt="" />
+          <img className="large-image" src={Pharmaniaga} alt="" />
           <p>Pharmaniaga</p>
         </div>
         <div className="skill">
-          <img className='large-image' src={Litera} alt="" />
+          <img className="large-image2" src={Litera} alt="" />
           <p>LiteraLearn</p>
         </div>
-       
-        </div>
-      
+      </div>
+
       <h2 className="skill-title">Front-End</h2>
       <div className="skills">
         <div className="skill">
-          <img
-            src={ReactIcon}
-            alt=""
-          />
+          <img src={ReactIcon} alt="" />
           <p>React</p>
         </div>
         <div className="skill">
-          <img
-            src={JavaScript}
-            alt=""
-          />
+          <img src={JavaScript} alt="" />
           <p>JavaScript</p>
         </div>
         <div className="skill">
-          <img
-            src={ReduxIcon}
-            alt=""
-          />
+          <img src={ReduxIcon} alt="" />
           <p>Redux</p>
         </div>
         <div className="skill">
-          <img
-            src={HTML}
-            alt=""
-          />
+          <img src={HTML} alt="" />
           <p>HTML5</p>
         </div>
         <div className="skill">
-          <img
-            src={CSS}
-            alt=""
-          />
+          <img src={CSS} alt="" />
           <p>CSS3</p>
         </div>
         <div className="skill">
-          <img
-            src={jQuery}
-            alt=""
-          />
+          <img src={jQuery} alt="" />
           <p>jQuery</p>
         </div>
         <div className="skill">
-          <img
-            src={Sass}
-            alt=""
-          />
+          <img src={Sass} alt="" />
           <p>SASS</p>
         </div>
         <div className="skill">
-          <img
-            src={BootStrap}
-            alt=""
-          />
+          <img src={BootStrap} alt="" />
           <p>Bootstrap</p>
         </div>
-        
       </div>
       <h2 className="skill-title">Back-End</h2>
       <div className="skills">
         <div className="skill">
-          <img
-            src={Ruby}
-            alt=""
-          />
+          <img src={Ruby} alt="" />
           <p>Ruby</p>
         </div>
         <div className="skill">
-          <img
-            src={Django}
-            alt=""
-          />
+          <img src={Django} alt="" />
           <p>Django</p>
         </div>
         <div className="skill">
-          <img
-            src={SpringBoot}
-            alt=""
-          />
+          <img src={SpringBoot} alt="" />
           <p>SpringBoot</p>
         </div>
         <div className="skill">
-          <img
-            src={MySql}
-            alt=""
-          />
+          <img src={MySql} alt="" />
           <p>MySQL</p>
         </div>
         <div className="skill">
-          <img
-            src={SQLyog}
-            alt=""
-          />
+          <img src={SQLyog} alt="" />
           <p>SQLyog</p>
         </div>
         <div className="skill">
-          <img
-            src={PostgreSQL}
-            alt=""
-          />
+          <img src={PostgreSQL} alt="" />
           <p>PostgreSQL</p>
         </div>
         <div className="skill">
-          <img
-            src={Firebase}
-            alt=""
-          />
+          <img src={Firebase} alt="" />
           <p>Firebase</p>
         </div>
-        
       </div>
       <h2 className="skill-title">3D</h2>
       <div className="skills">
-      <div className="skill">
+        <div className="skill">
           <img src={Pixyz} alt="" />
           <p>Pixyz</p>
         </div>
-       
+
         <div className="skill">
           <img src={Blender} alt="" />
           <p>Blender</p>
         </div>
-         <div className="skill">
+        <div className="skill">
           <img src={Unity} alt="" />
           <p>Unity</p>
         </div>
@@ -232,8 +186,7 @@ const About = () => (
           <img src={Vuforia} alt="" />
           <p>Vuforia</p>
         </div>
-        
-        
+
         <div className="skill">
           <img src={DsMax} alt="" />
           <p>3ds Max</p>
@@ -242,27 +195,22 @@ const About = () => (
       <h2 className="skill-title">Mobile</h2>
       <div className="skills">
         <div className="skill">
-          <img
-            src={ReactIcon}
-            alt=""
-          />
+          <img src={ReactIcon} alt="" />
           <p>React Native</p>
         </div>
         <div className="skill">
           <img src={Flutter} alt="" />
           <p>Flutter</p>
         </div>
-       
+
         <div className="skill">
           <img src={Android} alt="" />
           <p>Android Studio</p>
         </div>
-
       </div>
 
       <h2 className="skill-title">Git</h2>
       <div className="skills">
-        
         <div className="skill">
           <img src={GitLogo} alt="" />
           <p>Git</p>
@@ -279,16 +227,15 @@ const About = () => (
           <img src={Bitbucket} alt="" />
           <p>Bitbucket</p>
         </div>
-        </div>
-      
+      </div>
+
       <h2 className="skill-title">Tools</h2>
       <div className="skills">
-       
         <div className="skill">
           <img src={RSpecLogo} alt="" />
           <p>RSpec</p>
         </div>
-        
+
         <div className="skill">
           <img src={CDT} alt="" />
           <p>Chrome Dev Tools</p>
@@ -297,7 +244,7 @@ const About = () => (
           <img src={VSCode} alt="" />
           <p>VS Code</p>
         </div>
-        
+
         <div className="skill">
           <img src={PostMan} alt="" />
           <p>Postman</p>
@@ -311,7 +258,7 @@ const About = () => (
           <p>draw.io</p>
         </div>
       </div>
-      
+
       <h2 className="skill-title">Design</h2>
       <div className="skills">
         <div className="skill">
@@ -333,11 +280,11 @@ const About = () => (
       </div>
       <h2 className="skill-title">Communication</h2>
       <div className="skills">
-      <div className="skill">
+        <div className="skill">
           <img src={Teams} alt="" />
           <p>Teams</p>
         </div>
-       
+
         <div className="skill">
           <img src={SkypeLogo} alt="" />
           <p>Skype</p>
@@ -351,7 +298,7 @@ const About = () => (
           <p>Zoom</p>
         </div>
       </div>
-      
+
       <h2 className="skill-title">Soft Skills</h2>
       <div className="skills">
         <p className="soft-skill">Critical Thinking</p>
@@ -367,8 +314,7 @@ const About = () => (
         <p className="soft-skill">Adaptability</p>
       </div>
     </div>
-
   </section>
-);
+)
 
-export default About;
+export default About
