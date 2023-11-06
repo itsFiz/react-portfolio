@@ -9,19 +9,16 @@ const Contact = () => (
         COFFEE
         <br /> CHAT
       </h1>
+      <p>&copy; 2023 Hafiz Kadir</p>
     </div>
     <div className="footer-right">
       <h3>I'M ALWAYS INTERESTED ABOUT</h3>
       <div className="interests">
-        <p>Frontend Development</p>
-        <p>React</p>
-        <p>Backend Development</p>
+        <p>Multimedia</p>
         <p>Augmented Reality</p>
         <p>3D Modelling</p>
-
-        <p>WordPress Development</p>
-        <p>Startups</p>
-        <p>Flutter</p>
+        <p>Live Streaming</p>
+        <p>Programming</p>
       </div>
 
       <hr />
@@ -34,10 +31,13 @@ const Contact = () => (
       <hr />
 
       <div className="social">
-        <p>&copy; 2023 Hafiz Kadir</p>
+        
       </div>
+      
     </div>
+    
   </div>
+  
 )
 
 export default Contact

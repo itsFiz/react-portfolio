@@ -25,6 +25,15 @@ const Projects = () => {
         'https://www.youtube.com/watch?v=LkATF4jqDlU&list=PLX3AEknl3ENJFVaBkrFAJlFyuyBgpo6ZI',
     },
     {
+      image_url: 'https://i.imgur.com/ogYNneU.jpg',
+      project_name: 'E-Sport Forum',
+      description:
+        'The EV Mobile Application is a solution developed for Educity Village (EV) to address the growing demand for a reliable booking system. Traditional booking methods proved fragile and prone to errors, leading to the development of this user-friendly mobile application for space booking. The app caters to the needs of EV residents and guests, offering efficient booking for sports courts, spaces, pool tables, and BBQ pits.',
+      tech_stack: ['Flutter', 'Django', 'MySQL', 'Adobe XD'],
+      source_link:
+        'https://www.youtube.com/watch?v=0SQseOXalc8&ab_channel=KPZtv%21Channel',
+    },
+    {
       image_url: 'https://i.imgur.com/g4F2ezv.jpg',
       project_name: 'CozyShop',
       description:
@@ -71,13 +80,42 @@ const Projects = () => {
     },
     {
       image_url: 'https://i.imgur.com/5uklNxT.jpg',
-      project_name: 'Wedding Montage',
+      project_name: 'Wedding Montage #HairulFitriah',
       description:
-        'The "3D Donut Oreo" is a visually delectable 3D modeling project crafted using the powerful Blender software. This artful project takes a delicious spin on the classic donut and Oreo cookie. Careful attention is paid to texturing and lighting, creating an enticing and lifelike appearance. This delightful 3D project offers a visual treat to viewers, celebrating the art of 3D modeling and rendering with a scrumptious twist.',
-      tech_stack: ['Filmora X', 'iPhone 13 Pro', 'Cinematic Videography'],
+        'The Wedding Montage at Summer Leisure Garden is a creative and heartwarming project that captures the magic and romance of a wedding day set against the lush and enchanting backdrop of Summer Leisure Garden. This project aims to provide newlyweds with a beautifully crafted video montage that encapsulates the most memorable moments of their special day.',
+      tech_stack: ['Cinematic Videography', 'Summer Leisure Garden','Filmora X', 'iPhone 13 Pro', ],
       source_link:
-        'https://hafizkadirwork.wixsite.com/hfzkdr/portfolio-collections/recent-works/animation',
+        'https://youtu.be/kX58qHrBia0?si=Mzxe8EmELiHA6nOq',
     },
+    {
+      image_url: 'https://imgur.com/FypSU6k.jpg',
+      project_name: 'Pre Convo #Uitm Seremban',
+      description:
+        'The Pre-Convocation Photoshoot at Tamarind Square is an exciting project that offers graduating students a vibrant urban setting for capturing their achievements and celebrating their upcoming convocation. Set in the modern and creative atmosphere of Tamarind Square, this project aims to provide graduates with a memorable and contemporary photography experience.',
+      tech_stack: ['Photography', 'Taman Saujana', 'Canon 1300D'],
+      source_link:
+        'https://imgur.com/a/rodqhYT',
+    },
+    {
+      image_url: 'https://i.imgur.com/T1mhvjU.jpg',
+      project_name: 'Pre Convo #Uitm Penang',
+      description:
+        'The Pre-Convocation UiTM Photoshoot project is designed to capture the memorable moments of graduating students from Universiti Teknologi MARA (UiTM) in the lead-up to their convocation ceremony. This project aims to provide graduates with a professional and unforgettable photography experience, creating lasting memories of their academic journey and achievements.',
+      tech_stack: ['Photography', 'Tamarind Square', 'Canon 1300D'],
+      source_link:
+        'https://imgur.com/a/GbZR06g',
+    },
+    {
+      image_url: 'https://i.imgur.com/T1vFWvP.jpg',
+      project_name: 'Pre Wedding #UnaFarhat',
+      description:
+        'The Pre-Convocation UiTM Photoshoot project is designed to capture the memorable moments of graduating students from Universiti Teknologi MARA (UiTM) in the lead-up to their convocation ceremony. This project aims to provide graduates with a professional and unforgettable photography experience, creating lasting memories of their academic journey and achievements.',
+      tech_stack: ['Photography', 'Tamarind Square', 'Canon 1300D'],
+      source_link:
+        'https://imgur.com/a/IOl6r5S',
+    },
+    
+    
 
     // Add more projects as needed
   ]

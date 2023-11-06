@@ -47,6 +47,8 @@ import Gitlab from '../assets/gitlab.svg'
 import Bitbucket from '../assets/bitbucket.png'
 import Innoveam from '../assets/innoveam.png'
 import Drawio from '../assets/drawio.png'
+import RTM from '../assets/rtmm.png'
+import MetaSpark from '../assets/metaspark.webp'
 
 const About = () => (
   <section className="about" id="about">
@@ -78,6 +80,10 @@ const About = () => (
         <div className="skill">
           <img src={UOB} alt="" />
           <p>UOB</p>
+        </div>
+        <div className="skill">
+          <img src={RTM} alt="" />
+          <p>RTM</p>
         </div>
         <div className="skill">
           <img src={Innoveam} alt="" />
@@ -173,7 +179,10 @@ const About = () => (
           <img src={Pixyz} alt="" />
           <p>Pixyz</p>
         </div>
-
+        <div className="skill">
+          <img src={MetaSpark} alt="" />
+          <p>Meta Spark</p>
+        </div>
         <div className="skill">
           <img src={Blender} alt="" />
           <p>Blender</p>

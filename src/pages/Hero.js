@@ -81,6 +81,13 @@ const Hero = () => (
       >
         <i className="fa-brands fa-steam" />
       </a>
+      <a
+        href="https://www.twitch.tv/criedfizcken"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i className="fa-brands fa-twitch" />
+      </a>
     </div>
   </div>
 )
