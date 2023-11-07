@@ -92,7 +92,7 @@ const Projects = () => {
       project_name: 'Pre Convo #Uitm Seremban',
       description:
         'The Pre-Convocation Photoshoot at Tamarind Square is an exciting project that offers graduating students a vibrant urban setting for capturing their achievements and celebrating their upcoming convocation. Set in the modern and creative atmosphere of Tamarind Square, this project aims to provide graduates with a memorable and contemporary photography experience.',
-      tech_stack: ['Photography', 'Taman Saujana', 'Canon 1300D'],
+      tech_stack: ['Photography', 'Tamarind Square', 'Canon 1300D'],
       source_link:
         'https://imgur.com/a/rodqhYT',
     },
@@ -110,7 +110,7 @@ const Projects = () => {
       project_name: 'Pre Wedding #UnaFarhat',
       description:
         'The Pre-Convocation UiTM Photoshoot project is designed to capture the memorable moments of graduating students from Universiti Teknologi MARA (UiTM) in the lead-up to their convocation ceremony. This project aims to provide graduates with a professional and unforgettable photography experience, creating lasting memories of their academic journey and achievements.',
-      tech_stack: ['Photography', 'Tamarind Square', 'Canon 1300D'],
+      tech_stack: ['Photography', 'Taman Saujana', 'Canon 1300D'],
       source_link:
         'https://imgur.com/a/IOl6r5S',
     },

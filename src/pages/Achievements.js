@@ -7,17 +7,17 @@ const Achievements = () => {
   const projectData = [
     {
       image_url:
-        'https://media.licdn.com/dms/image/D4D22AQHWNurBHx5agw/feedshare-shrink_2048_1536/0/1698890666671?e=1701907200&v=beta&t=HtHNiCx6ObMenPWLbkSgs4nV6pn-R8T_-c-QfRjkb8E',
-      project_name: 'ARespiratory',
+        'https://media.licdn.com/dms/image/D4D22AQH6C2DpGzxVfQ/feedshare-shrink_1280/0/1698890675322?e=1702512000&v=beta&t=OEGEDN3er4hl8yK2bKZfH_Kc22OGDQfRqfVeAX3qZfA',
+      project_name: 'International University Carnival on E-Learning (IUCEL) 2022 Gold Medal Winner',
       description:
-        'ARespiratory is developed in collaboration with Faculty Medical & Health Science, UPM. This mobile application has Augmented Reality(AR) features to assist medical students in learning the anatomy and physiology of the respiratory system. \n This application has obtained copyright by MyIPO.',
+        "My passion project, an Augmented Reality mobile application for learning the anatomy and physiology of respiratory system, has earned international recognition and a prestigious Gold Medal at IUCEL 2022! 🌐🏅🧬 What makes this achievement even more special is the invaluable impact it has on medical education. We all know that understanding the human body''s intricacies is a critical foundation for any healthcare professional, and my app aims to make this learning experience not only effective but also engaging and interactive.",
       tech_stack: ['Unity', 'Vuforia', 'Blender', 'Adobe XD'],
       source_link:
         'https://www.linkedin.com/posts/hfzkdr_arlearning-medicaleducation-innovation-activity-7125663966193758208-TGvP?utm_source=share&utm_medium=member_desktop',
     },
     {
-      image_url: 'https://i.imgur.com/gJm1g1J.jpg',
-      project_name: 'EV',
+      image_url: 'https://i.imgur.com/MmBGiz7.jpg',
+      project_name: 'PutraLova',
       description:
         'The EV Mobile Application is a solution developed for Educity Village (EV) to address the growing demand for a reliable booking system. Traditional booking methods proved fragile and prone to errors, leading to the development of this user-friendly mobile application for space booking. The app caters to the needs of EV residents and guests, offering efficient booking for sports courts, spaces, pool tables, and BBQ pits.',
       tech_stack: ['Flutter', 'Django', 'MySQL', 'Adobe XD'],
@@ -26,7 +26,7 @@ const Achievements = () => {
     },
     {
       image_url: 'https://i.imgur.com/ogYNneU.jpg',
-      project_name: 'E-Sport Forum',
+      project_name: 'E-Sport Forum Speaker',
       description:
         'The EV Mobile Application is a solution developed for Educity Village (EV) to address the growing demand for a reliable booking system. Traditional booking methods proved fragile and prone to errors, leading to the development of this user-friendly mobile application for space booking. The app caters to the needs of EV residents and guests, offering efficient booking for sports courts, spaces, pool tables, and BBQ pits.',
       tech_stack: ['Flutter', 'Django', 'MySQL', 'Adobe XD'],
@@ -122,11 +122,9 @@ const Achievements = () => {
 
   return (
     <div className="projects" id="projects">
-      <h1 className="title projects-title">Featured Projects</h1>
+      <h1 className="title projects-title">Achievement Highlights</h1>
       <p className="projects-para">
-        Deployed 50+ scalable websites and cross-platform mobile applications.
-        Collaborated in 100+ projects with 30+ clients all around the world.
-        Looking for the next project/role.
+      During my time at university, I've actively pursued involvement in various aspects of campus life. Academically, I've maintained a strong commitment to my studies, consistently striving to excel in my coursework and achieve second class upper honours. Simultaneously, I've also been highly engaged outside the classroom joining student clubs, organizations and extracurricular activities. My university years have been characterized by a balanced commitment to both academic excellence and active participation in extracurricular activities, fostering personal growth, and a well-rounded education.
       </p>
       <div className="projects-container">
         {projectData.map((project, id) => (
