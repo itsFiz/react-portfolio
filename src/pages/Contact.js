@@ -19,6 +19,14 @@ const Contact = () => (
         <p>3D Modelling</p>
         <p>Live Streaming</p>
         <p>Programming</p>
+        <p>React</p>
+        <p>Springboot</p>
+
+        <p>Flutter</p>
+        <p>Unity</p>
+        
+
+
       </div>
 
       <hr />
