@@ -96,6 +96,18 @@ const NavBar = () => {
               offset={50}
               duration={500}
               onClick={toggleMenu}
+              to="achievements"
+            >
+              Achievement,
+            </Link>
+          </li>
+          <li>
+            <Link
+              spy
+              smooth
+              offset={50}
+              duration={500}
+              onClick={toggleMenu}
               to="projects"
             >
               Projects,

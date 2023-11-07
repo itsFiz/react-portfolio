@@ -71,6 +71,15 @@ const Projects = () => {
         'https://hafizkadirwork.wixsite.com/hfzkdr/portfolio-collections/recent-works/animation',
     },
     {
+      image_url: 'https://i.imgur.com/Xq5c2BQ.png',
+      project_name: '3D Sushi',
+      description:
+        "Our 3D Sushi project is an exciting endeavor that harnesses the power of Blender, a versatile 3D modeling and rendering software. Using Blender's advanced tools and techniques, we aim to create highly realistic and visually appealing 3D models of sushi dishes. ",
+      tech_stack: ['Blender'],
+      source_link:
+        'N/A',
+    },
+    {
       image_url: 'https://i.imgur.com/5uklNxT.jpg',
       project_name: 'Wedding Montage #HairulFitriah',
       description:

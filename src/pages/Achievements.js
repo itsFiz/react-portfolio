@@ -46,7 +46,7 @@ const Achievements = () => {
         'https://www.facebook.com/deARTsa.UPM/videos/1058452658362783/',
     },
     {
-      image_url: 'https://i.imgur.com/ogYNneU.jpg',
+      image_url: 'https://i.imgur.com/GJNXnuL.jpg',
       project_name: 'E-Sport Forum - Speaker',
       description:
         'The EV Mobile Application is a solution developed for Educity Village (EV) to address the growing demand for a reliable booking system. Traditional booking methods proved fragile and prone to errors, leading to the development of this user-friendly mobile application for space booking. The app caters to the needs of EV residents and guests, offering efficient booking for sports courts, spaces, pool tables, and BBQ pits.',
@@ -68,7 +68,7 @@ const Achievements = () => {
 
   return (
     <div className="achievements" id="achievements">
-      <h1 className="title projects-title">Achievement Highlights</h1>
+      <h1 className="title achievement-title">Achievement Highlights</h1>
       <p className="projects-para">
       During my time at university, I've actively pursued involvement in various aspects of campus life. Academically, I've maintained a strong commitment to my studies, consistently striving to excel in my coursework and achieve second class upper honours. Simultaneously, I've also been highly engaged outside the classroom joining student clubs, organizations and extracurricular activities. My university years have been characterized by a balanced commitment to both academic excellence and active participation in extracurricular activities, fostering personal growth, and a well-rounded education.
       </p>

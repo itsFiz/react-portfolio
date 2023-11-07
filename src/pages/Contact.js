@@ -25,8 +25,60 @@ const Contact = () => (
 
       <h3>
         MINDING A PROJECT?
-        <a href="mailto:hafizkadir.work@gmail.com">Contact Me</a>
-      </h3>
+        
+      </h3><button className='hire-me'><a href="mailto:hafizkadir.work@gmail.com">Contact Me</a></button>
+      <hr></hr>
+      <div className="social-icons">
+      <a href="https://github.com/itsFiz" target="_blank" rel="noreferrer">
+        <i className="fa-brands fa-github" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/hfzkdr/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i className="fa-brands fa-linkedin-in" />
+      </a>
+
+      <a
+        href="https://www.twitter.com/criedfizcken"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i className="fa-brands fa-twitter" />
+      </a>
+      <a
+        href="https://www.youtube.com/@criedfizcken6200"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i className="fa-brands fa-youtube" />
+      </a>
+      <a href="https://discord.gg/EhkJZpVyvX" target="_blank" rel="noreferrer">
+        <i className="fa-brands fa-discord" />
+      </a>
+      <a
+        href="https://www.instagram.com/criedfizcken/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i className="fa-brands fa-instagram" />
+      </a>
+      <a
+        href="https://steamcommunity.com/id/itsFizzz/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i className="fa-brands fa-steam" />
+      </a>
+      <a
+        href="https://www.twitch.tv/criedfizcken"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i className="fa-brands fa-twitch" />
+      </a>
+    </div>
 
       <hr />
 

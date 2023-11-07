@@ -9,9 +9,9 @@
     gap: 1rem;
   }
   
-  .projects-title {
+  .achievement-title {
     margin-top: 2rem !important;
-    text-align: right;
+    text-align: end;
   }
   
   .projects-para {
