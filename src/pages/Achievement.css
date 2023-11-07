@@ -1,0 +1,52 @@
+.achievements {
+    padding: 0 10%;
+    margin-bottom: 10%;
+  }
+  
+  .achievements-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+  .projects-title {
+    margin-top: 2rem !important;
+    text-align: right;
+  }
+  
+  .projects-para {
+    font-size: 1.5rem;
+    color: white;
+    margin: 2% 0 4rem 0;
+    font-family: 'Orbit', sans-serif;
+    text-align: justify;
+  }
+  
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3),
+    only screen and (min-resolution: 125dpi) {
+    .projects-para {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .projects-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .projects {
+      padding: 0 5%;
+      margin-bottom: 20%;
+    }
+  
+    .projects-para {
+      font-size: 1rem;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .projects-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  

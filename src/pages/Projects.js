@@ -24,15 +24,7 @@ const Projects = () => {
       source_link:
         'https://www.youtube.com/watch?v=LkATF4jqDlU&list=PLX3AEknl3ENJFVaBkrFAJlFyuyBgpo6ZI',
     },
-    {
-      image_url: 'https://i.imgur.com/ogYNneU.jpg',
-      project_name: 'E-Sport Forum',
-      description:
-        'The EV Mobile Application is a solution developed for Educity Village (EV) to address the growing demand for a reliable booking system. Traditional booking methods proved fragile and prone to errors, leading to the development of this user-friendly mobile application for space booking. The app caters to the needs of EV residents and guests, offering efficient booking for sports courts, spaces, pool tables, and BBQ pits.',
-      tech_stack: ['Flutter', 'Django', 'MySQL', 'Adobe XD'],
-      source_link:
-        'https://www.youtube.com/watch?v=0SQseOXalc8&ab_channel=KPZtv%21Channel',
-    },
+ 
     {
       image_url: 'https://i.imgur.com/g4F2ezv.jpg',
       project_name: 'CozyShop',

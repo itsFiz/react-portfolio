@@ -49,6 +49,11 @@ import Innoveam from '../assets/innoveam.png'
 import Drawio from '../assets/drawio.png'
 import RTM from '../assets/rtmm.png'
 import MetaSpark from '../assets/metaspark.webp'
+import MDEC from '../assets/mdec.webp'
+import matlab from '../assets/matlab.png'
+import MCMC from '../assets/MCMC_Logo.png'
+
+
 
 const About = () => (
   <section className="about" id="about">
@@ -94,8 +99,16 @@ const About = () => (
           <p>UPM</p>
         </div>
         <div className="skill">
+          <img className='large-image2'src={MDEC} alt="" />
+          <p>MDEC</p>
+        </div>
+        <div className="skill">
           <img src={Perkeso} alt="" />
           <p>Perkeso</p>
+        </div>
+        <div className="skill">
+          <img src={MCMC} alt="" />
+          <p>MCMC</p>
         </div>
         <div className="skill">
           <img className="large-image" src={Pharmaniaga} alt="" />
@@ -240,20 +253,21 @@ const About = () => (
 
       <h2 className="skill-title">Tools</h2>
       <div className="skills">
-        <div className="skill">
-          <img src={RSpecLogo} alt="" />
-          <p>RSpec</p>
-        </div>
+        
 
-        <div className="skill">
-          <img src={CDT} alt="" />
-          <p>Chrome Dev Tools</p>
-        </div>
+        
         <div className="skill">
           <img src={VSCode} alt="" />
           <p>VS Code</p>
         </div>
-
+        <div className="skill">
+          <img src={matlab} alt="" />
+          <p>Matlab</p>
+        </div>
+        <div className="skill">
+          <img src={CDT} alt="" />
+          <p>Chrome Dev Tools</p>
+        </div>
         <div className="skill">
           <img src={PostMan} alt="" />
           <p>Postman</p>
