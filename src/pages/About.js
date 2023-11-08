@@ -53,8 +53,6 @@ import MDEC from '../assets/mdec.webp'
 import matlab from '../assets/matlab.png'
 import MCMC from '../assets/MCMC_Logo.png'
 
-
-
 const About = () => (
   <section className="about" id="about">
     <div className="about-me">
@@ -99,7 +97,7 @@ const About = () => (
           <p>UPM</p>
         </div>
         <div className="skill">
-          <img className='large-image2'src={MDEC} alt="" />
+          <img className="large-image2" src={MDEC} alt="" />
           <p>MDEC</p>
         </div>
         <div className="skill">
@@ -253,9 +251,6 @@ const About = () => (
 
       <h2 className="skill-title">Tools</h2>
       <div className="skills">
-        
-
-        
         <div className="skill">
           <img src={VSCode} alt="" />
           <p>VS Code</p>
@@ -264,10 +259,7 @@ const About = () => (
           <img src={matlab} alt="" />
           <p>Matlab</p>
         </div>
-        <div className="skill">
-          <img src={CDT} alt="" />
-          <p>Chrome Dev Tools</p>
-        </div>
+
         <div className="skill">
           <img src={PostMan} alt="" />
           <p>Postman</p>
