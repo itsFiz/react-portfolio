@@ -8,6 +8,7 @@ const Hero = () => (
     <div className="hero-overlay">
       <div className="description">
         <h2 className="title">hELLO. i aM Hafiz Kadir</h2>
+
         <h3 className="tagline">
           I do AR, Fullstack Dev, Ui/Ux, Photography and stream on Twitch for
           fun!
@@ -26,17 +27,26 @@ const Hero = () => (
               target="_blank"
               rel="noreferrer"
             >
-              GET MY CV
+              Get My CV
             </a>
           </button>
           <button className="lets-talk">
             <Link spy smooth offset={50} duration={500} to="contact">
-              LET'S TALK
+              Say Hello
             </Link>
           </button>
         </div>
       </div>
       <img src={Imu} alt="Fiz" className="hero-image" />
+    </div>
+    <div>
+      <p align="left">
+        {' '}
+        <img
+          src="https://komarev.com/ghpvc/?username=itsfiz&label=Profile%20views&color=ce3636&style=flat"
+          alt="itsfiz"
+        />{' '}
+      </p>
     </div>
     <div className="social-icons">
       <a href="https://github.com/itsFiz" target="_blank" rel="noreferrer">

@@ -59,9 +59,10 @@ const About = () => (
       <h2 className="title about-title">aBOUT mE</h2>
       <p className="paragraph about-para">
         A Computer Science (Multimedia) graduate from Universiti Putra Malaysia,
-        currently an IT Associate - Digital Banking at UOB Innovation Hub 2.
-        Passionate about UI/UX designing, 3D Modeling, Augmented Reality, Mobile
-        App Development, Photography, and Video Editing.
+        formerly a 3D Content Developer at Innoveam, currently an IT Associate -
+        Digital Banking at UOB Innovation Hub 2. Passionate about Fullstack
+        Development, UI/UX designing, 3D Modeling, Augmented Reality,
+        Photography, and Video Editing.
       </p>
       <button className="hire-me">
         <a
@@ -117,7 +118,6 @@ const About = () => (
           <p>LiteraLearn</p>
         </div>
       </div>
-
       <h2 className="skill-title">Front-End</h2>
       <div className="skills">
         <div className="skill">
@@ -179,6 +179,7 @@ const About = () => (
           <img src={PostgreSQL} alt="" />
           <p>PostgreSQL</p>
         </div>
+
         <div className="skill">
           <img src={Firebase} alt="" />
           <p>Firebase</p>
@@ -228,7 +229,6 @@ const About = () => (
           <p>Android Studio</p>
         </div>
       </div>
-
       <h2 className="skill-title">Git</h2>
       <div className="skills">
         <div className="skill">
@@ -248,7 +248,6 @@ const About = () => (
           <p>Bitbucket</p>
         </div>
       </div>
-
       <h2 className="skill-title">Tools</h2>
       <div className="skills">
         <div className="skill">
@@ -273,7 +272,6 @@ const About = () => (
           <p>draw.io</p>
         </div>
       </div>
-
       <h2 className="skill-title">Design</h2>
       <div className="skills">
         <div className="skill">
@@ -313,7 +311,6 @@ const About = () => (
           <p>Zoom</p>
         </div>
       </div>
-
       <h2 className="skill-title">Soft Skills</h2>
       <div className="skills">
         <p className="soft-skill">Critical Thinking</p>
