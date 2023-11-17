@@ -1,12 +1,12 @@
 <a name="readme-top"></a>
 
-<h1 align='center'> Portfolio - Hafiz Kadir 🤘 </h1>
+<h1 align='center'> Portfolio - Hafiz Kadir 🤟🏻 </h1>
 
 
 # Table of Contents
 
 - [Table of Contents](#-table-of-contents)
-- [ Portfolio - Prantosh Biswas 🤘](#-about-project-)
+- [ Portfolio - Hafiz Kadir 🤟🏻](#-about-project-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -23,7 +23,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# Portfolio - Prantosh Biswas 🤘 <a name="about-project"></a>
+# Portfolio - Hafiz Kadir 🤟🏻 <a name="about-project"></a>
 
 This Personal Portfolio is a dynamic and interactive portfolio website built with React and Redux in the Front-End. It provides a modern and visually appealing platform for showcasing your skills, projects, and achievements to potential employers or clients.
 
