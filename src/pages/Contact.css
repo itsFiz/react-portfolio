@@ -11,6 +11,10 @@
   width: 40%;
 }
 
+.footer-text {
+  color: antiquewhite;
+}
+
 .footer-left h1 {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;

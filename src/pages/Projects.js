@@ -24,7 +24,7 @@ const Projects = () => {
       source_link:
         'https://www.youtube.com/watch?v=LkATF4jqDlU&list=PLX3AEknl3ENJFVaBkrFAJlFyuyBgpo6ZI',
     },
- 
+
     {
       image_url: 'https://i.imgur.com/g4F2ezv.jpg',
       project_name: 'CozyShop',
@@ -74,19 +74,22 @@ const Projects = () => {
       image_url: 'https://i.imgur.com/Xq5c2BQ.png',
       project_name: '3D Sushi',
       description:
-        "Our 3D Sushi project is an exciting endeavor that harnesses the power of Blender, a versatile 3D modeling and rendering software. Using Blender's advanced tools and techniques, we aim to create highly realistic and visually appealing 3D models of sushi dishes. ",
+        "3D Sushi project is an exciting endeavor that harnesses the power of Blender, a versatile 3D modeling and rendering software. Using Blender's advanced tools and techniques, we aim to create highly realistic and visually appealing 3D models of sushi dishes. ",
       tech_stack: ['Blender'],
-      source_link:
-        'N/A',
+      source_link: 'N/A',
     },
     {
       image_url: 'https://i.imgur.com/5uklNxT.jpg',
       project_name: 'Wedding Montage #HairulFitriah',
       description:
         'The Wedding Montage at Summer Leisure Garden is a creative and heartwarming project that captures the magic and romance of a wedding day set against the lush and enchanting backdrop of Summer Leisure Garden. This project aims to provide newlyweds with a beautifully crafted video montage that encapsulates the most memorable moments of their special day.',
-      tech_stack: ['Cinematic Videography', 'Summer Leisure Garden','Filmora X', 'iPhone 13 Pro', ],
-      source_link:
-        'https://youtu.be/kX58qHrBia0?si=Mzxe8EmELiHA6nOq',
+      tech_stack: [
+        'Cinematic Videography',
+        'Summer Leisure Garden',
+        'Filmora X',
+        'iPhone 13 Pro',
+      ],
+      source_link: 'https://youtu.be/kX58qHrBia0?si=Mzxe8EmELiHA6nOq',
     },
     {
       image_url: 'https://imgur.com/FypSU6k.jpg',
@@ -94,8 +97,7 @@ const Projects = () => {
       description:
         'The Pre-Convocation Photoshoot at Tamarind Square is an exciting project that offers graduating students a vibrant urban setting for capturing their achievements and celebrating their upcoming convocation. Set in the modern and creative atmosphere of Tamarind Square, this project aims to provide graduates with a memorable and contemporary photography experience.',
       tech_stack: ['Photography', 'Tamarind Square', 'Canon 1300D'],
-      source_link:
-        'https://imgur.com/a/rodqhYT',
+      source_link: 'https://imgur.com/a/rodqhYT',
     },
     {
       image_url: 'https://i.imgur.com/T1mhvjU.jpg',
@@ -103,8 +105,7 @@ const Projects = () => {
       description:
         'The Pre-Convocation UiTM Photoshoot project is designed to capture the memorable moments of graduating students from Universiti Teknologi MARA (UiTM) in the lead-up to their convocation ceremony. This project aims to provide graduates with a professional and unforgettable photography experience, creating lasting memories of their academic journey and achievements.',
       tech_stack: ['Photography', 'Tamarind Square', 'Canon 1300D'],
-      source_link:
-        'https://imgur.com/a/GbZR06g',
+      source_link: 'https://imgur.com/a/GbZR06g',
     },
     {
       image_url: 'https://i.imgur.com/T1vFWvP.jpg',
@@ -112,11 +113,8 @@ const Projects = () => {
       description:
         "Pre-wedding photoshoot at the picturesque Taman Saujana Hijau in Putrajaya. This project aims to create a visual narrative that encapsulates the unique love story of Una and her partner, highlighting the natural beauty of the location while focusing on the couple's genuine connection and emotions.",
       tech_stack: ['Photography', 'Taman Saujana', 'Canon 1300D'],
-      source_link:
-        'https://imgur.com/a/IOl6r5S',
+      source_link: 'https://imgur.com/a/IOl6r5S',
     },
-    
-    
 
     // Add more projects as needed
   ]
@@ -125,9 +123,9 @@ const Projects = () => {
     <div className="projects" id="projects">
       <h1 className="title projects-title">Featured Projects</h1>
       <p className="projects-para">
-        Deployed 50+ scalable websites and cross-platform mobile applications.
-        Collaborated in 100+ projects with 30+ clients all around the world.
-        Looking for the next project/role.
+        Deployed 20+ prototypes, websites, mobile applications and 3D models.
+        Collaborated in projects with 10+ clients. Looking for next
+        project/role.
       </p>
       <div className="projects-container">
         {projectData.map((project, id) => (

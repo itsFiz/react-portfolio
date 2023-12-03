@@ -5,11 +5,10 @@ import ProjectCard from '../components/ProjectCard'
 const Achievements = () => {
   // Manually define the project data
   const projectData = [
-   
     {
-      image_url:
-        'https://i.imgur.com/ewJQJM7.jpg',
-      project_name: 'International University Carnival on E-Learning (IUCEL) 2022 - Gold Medal Winner',
+      image_url: 'https://i.imgur.com/ewJQJM7.jpg',
+      project_name:
+        'International University Carnival on E-Learning (IUCEL) 2022 - Gold Medal Winner',
       description:
         "My passion project, an Augmented Reality mobile application for learning the anatomy and physiology of respiratory system, has earned international recognition and a prestigious Gold Medal at IUCEL 2022! 🌐🏅🧬 What makes this achievement even more special is the invaluable impact it has on medical education. We all know that understanding the human body''s intricacies is a critical foundation for any healthcare professional, and my app aims to make this learning experience not only effective but also engaging and interactive.",
       tech_stack: ['IIDEL', 'IUCEL', 'Gold Medal', 'Adobe XD'],
@@ -25,10 +24,10 @@ const Achievements = () => {
       source_link:
         'https://www.youtube.com/watch?v=bFQIHZKmY-s&ab_channel=BeritaRTM',
     },
-    
-   
+
     {
-      image_url: ' https://media.licdn.com/dms/image/D5622AQFXhnCu56de-Q/feedshare-shrink_800/0/1684408993669?e=1702512000&v=beta&t=ldwLU6rspNM3MupaPMsYOUg-KvAJgy3JHFoy9w61Tco',
+      image_url:
+        ' https://media.licdn.com/dms/image/D5622AQFXhnCu56de-Q/feedshare-shrink_800/0/1684408993669?e=1702512000&v=beta&t=ldwLU6rspNM3MupaPMsYOUg-KvAJgy3JHFoy9w61Tco',
       project_name: 'MDEC-PRISMA Top 100 Creative Streamer',
       description:
         "Awarded by Malaysia Digital Economic Corporation (MDEC) in Pakej Rangsangan Industri Kreatif Malaysia (PRISMA) Digital Content Grant. Excited to have made it to the Top 100 Creative Streamers, a testament to the power of digital creativity in shaping the future. 🎮💡",
@@ -55,22 +54,30 @@ const Achievements = () => {
         'https://www.youtube.com/watch?v=0SQseOXalc8&ab_channel=KPZtv%21Channel',
     },
     {
-      image_url: 'https://media.licdn.com/dms/image/D5622AQFXwG6iwY8rnw/feedshare-shrink_2048_1536/0/1687392903250?e=1702512000&v=beta&t=6DFr-iz0YXcZCT5sXxFAOHv4vhNpc8ze6jeFVsdCMyI',
+      image_url:
+        'https://media.licdn.com/dms/image/D5622AQFXwG6iwY8rnw/feedshare-shrink_2048_1536/0/1687392903250?e=1702512000&v=beta&t=6DFr-iz0YXcZCT5sXxFAOHv4vhNpc8ze6jeFVsdCMyI',
       project_name: 'Industrial Visit UPM to Innoveam - Presenter',
       description:
         "Thrilled to have had the opportunity to showcase the cutting-edge world of 3D simulation and Extended Reality (XR) at Innoveam during the recent industrial visit by the talented juniors from Universiti Putra Malaysia! 🎓I had the privilege of presenting Innoveam's dynamic profile to the bright minds from UPM, giving them a glimpse into our journey of creating immersive digital solutions, fostering deeper connections between academia and industry to create mutually beneficial partnerships that bridge the gap between theory and real-world application.",
       tech_stack: ['Internship', 'AcademiaXIndustry', 'Innoveam'],
       source_link:
-        'https://xd.adobe.com/view/dfd74d8e-99b2-497e-9184-ccc7c11577be-8a84/',
+        'https://www.linkedin.com/posts/hfzkdr_industrialvisit-digitaltwin-metaverse-activity-7077438812720680960-9TJb?utm_source=share&utm_medium=member_desktop',
     },
-    
   ]
 
   return (
     <div className="achievements" id="achievements">
       <h1 className="title achievement-title">Achievement Highlights</h1>
       <p className="projects-para">
-      During my time at university, I've actively pursued involvement in various aspects of campus life. Academically, I've maintained a strong commitment to my studies, consistently striving to excel in my coursework and achieve second class upper honours. Simultaneously, I've also been highly engaged outside the classroom joining student clubs, organizations and extracurricular activities. My university years have been characterized by a balanced commitment to both academic excellence and active participation in extracurricular activities, fostering personal growth, and a well-rounded education.
+        During my time at university, I've actively pursued involvement in
+        various aspects of campus life. Academically, I've maintained a strong
+        commitment to my studies, consistently striving to excel in my
+        coursework and achieve second class upper honours. Simultaneously, I've
+        also been highly engaged outside the classroom joining student clubs,
+        organizations and extracurricular activities. My university years have
+        been characterized by a balanced commitment to both academic excellence
+        and active participation in extracurricular activities, fostering
+        personal growth, and a well-rounded education.
       </p>
       <div className="projects-container">
         {projectData.map((project, id) => (

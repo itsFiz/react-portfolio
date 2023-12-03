@@ -30,7 +30,7 @@
   margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
 .skill {
@@ -43,7 +43,7 @@
 }
 
 .skill img {
-  width: 50px;
+  width: 40px;
 }
 
 .skill .large-image {
