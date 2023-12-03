@@ -27,7 +27,7 @@ const Achievements = () => {
 
     {
       image_url:
-        ' https://media.licdn.com/dms/image/D5622AQFXhnCu56de-Q/feedshare-shrink_800/0/1684408993669?e=1702512000&v=beta&t=ldwLU6rspNM3MupaPMsYOUg-KvAJgy3JHFoy9w61Tco',
+        ' https://i.imgur.com/QYXqttx.jpg',
       project_name: 'MDEC-PRISMA Top 100 Creative Streamer',
       description:
         "Awarded by Malaysia Digital Economic Corporation (MDEC) in Pakej Rangsangan Industri Kreatif Malaysia (PRISMA) Digital Content Grant. Excited to have made it to the Top 100 Creative Streamers, a testament to the power of digital creativity in shaping the future. 🎮💡",
@@ -55,7 +55,7 @@ const Achievements = () => {
     },
     {
       image_url:
-        'https://media.licdn.com/dms/image/D5622AQFXwG6iwY8rnw/feedshare-shrink_2048_1536/0/1687392903250?e=1702512000&v=beta&t=6DFr-iz0YXcZCT5sXxFAOHv4vhNpc8ze6jeFVsdCMyI',
+        'https://i.imgur.com/PeA07RZ.jpg',
       project_name: 'Industrial Visit UPM to Innoveam - Presenter',
       description:
         "Thrilled to have had the opportunity to showcase the cutting-edge world of 3D simulation and Extended Reality (XR) at Innoveam during the recent industrial visit by the talented juniors from Universiti Putra Malaysia! 🎓I had the privilege of presenting Innoveam's dynamic profile to the bright minds from UPM, giving them a glimpse into our journey of creating immersive digital solutions, fostering deeper connections between academia and industry to create mutually beneficial partnerships that bridge the gap between theory and real-world application.",

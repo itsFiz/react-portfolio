@@ -7,7 +7,7 @@ const Projects = () => {
   const projectData = [
     {
       image_url:
-        'https://media.licdn.com/dms/image/D4D22AQHWNurBHx5agw/feedshare-shrink_2048_1536/0/1698890666671?e=1701907200&v=beta&t=HtHNiCx6ObMenPWLbkSgs4nV6pn-R8T_-c-QfRjkb8E',
+        'https://i.imgur.com/6CPRhzM.jpg',
       project_name: 'ARespiratory',
       description:
         'ARespiratory is developed in collaboration with Faculty Medical & Health Science, UPM. This mobile application has Augmented Reality(AR) features to assist medical students in learning the anatomy and physiology of the respiratory system. \n This application has obtained copyright by MyIPO.',
@@ -58,7 +58,7 @@ const Projects = () => {
       project_name: 'Pendekar Jahat',
       description:
         '"Pendekar Jahat" is a menacing 3D warrior character brought to life through meticulous 3D modeling and texturing. This dark and enigmatic character represents the embodiment of evil in a fantasy world. The project showcases an intricately designed evil warrior, featuring sinister armor, menacing weapons, and a foreboding presence."Pendekar Jahat" effectively conveys a character with a dark backstory and a malevolent purpose, adding depth to the character design.',
-      tech_stack: ['Blender'],
+      tech_stack: ['Blender','3D Modeling'],
       source_link: 'https://streamable.com/tzlm44',
     },
     {
@@ -66,7 +66,7 @@ const Projects = () => {
       project_name: '3D Donut Oreo',
       description:
         'The "3D Donut Oreo" is a visually delectable 3D modeling project crafted using the powerful Blender software. This artful project takes a delicious spin on the classic donut and Oreo cookie. Careful attention is paid to texturing and lighting, creating an enticing and lifelike appearance. This delightful 3D project offers a visual treat to viewers, celebrating the art of 3D modeling and rendering with a scrumptious twist.',
-      tech_stack: ['Blender'],
+      tech_stack: ['Blender','3D Modeling'],
       source_link:
         'https://hafizkadirwork.wixsite.com/hfzkdr/portfolio-collections/recent-works/animation',
     },
@@ -75,7 +75,7 @@ const Projects = () => {
       project_name: '3D Sushi',
       description:
         "3D Sushi project is an exciting endeavor that harnesses the power of Blender, a versatile 3D modeling and rendering software. Using Blender's advanced tools and techniques, we aim to create highly realistic and visually appealing 3D models of sushi dishes. ",
-      tech_stack: ['Blender'],
+      tech_stack: ['Blender','3D Modeling'],
       source_link: 'N/A',
     },
     {
@@ -124,8 +124,7 @@ const Projects = () => {
       <h1 className="title projects-title">Featured Projects</h1>
       <p className="projects-para">
         Deployed 20+ prototypes, websites, mobile applications and 3D models.
-        Collaborated in projects with 10+ clients. Looking for next
-        project/role.
+        Collaborated in projects with 10+ clients.  Feel free to contact me for any inquiries.
       </p>
       <div className="projects-container">
         {projectData.map((project, id) => (
