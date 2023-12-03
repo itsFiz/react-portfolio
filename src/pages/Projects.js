@@ -110,7 +110,7 @@ const Projects = () => {
       image_url: 'https://i.imgur.com/T1vFWvP.jpg',
       project_name: 'Pre Wedding #UnaFarhat',
       description:
-        'The Pre-Convocation UiTM Photoshoot project is designed to capture the memorable moments of graduating students from Universiti Teknologi MARA (UiTM) in the lead-up to their convocation ceremony. This project aims to provide graduates with a professional and unforgettable photography experience, creating lasting memories of their academic journey and achievements.',
+        "Pre-wedding photoshoot at the picturesque Taman Saujana Hijau in Putrajaya. This project aims to create a visual narrative that encapsulates the unique love story of Una and her partner, highlighting the natural beauty of the location while focusing on the couple's genuine connection and emotions.",
       tech_stack: ['Photography', 'Taman Saujana', 'Canon 1300D'],
       source_link:
         'https://imgur.com/a/IOl6r5S',

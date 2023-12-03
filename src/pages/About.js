@@ -52,6 +52,11 @@ import MetaSpark from '../assets/metaspark.webp'
 import MDEC from '../assets/mdec.webp'
 import matlab from '../assets/matlab.png'
 import MCMC from '../assets/MCMC_Logo.png'
+import Mui from '../assets/mui.png'
+import Discord from '../assets/discord.png'
+
+
+
 
 
 
@@ -153,6 +158,10 @@ const About = () => (
         <div className="skill">
           <img src={BootStrap} alt="" />
           <p>Bootstrap</p>
+        </div>
+        <div className="skill">
+          <img src={Mui} alt="" />
+          <p>MUI</p>
         </div>
       </div>
       <h2 className="skill-title">Back-End</h2>
@@ -276,10 +285,7 @@ const About = () => (
           <img src={NPMlogo} alt="" />
           <p>npm</p>
         </div>
-        <div className="skill">
-          <img src={Drawio} alt="" />
-          <p>draw.io</p>
-        </div>
+        
       </div>
 
       <h2 className="skill-title">Design</h2>
@@ -300,9 +306,17 @@ const About = () => (
           <img src={XMind} alt="" />
           <p>XMind </p>
         </div>
+        <div className="skill">
+          <img src={Drawio} alt="" />
+          <p>draw.io</p>
+        </div>
       </div>
       <h2 className="skill-title">Communication</h2>
       <div className="skills">
+      <div className="skill">
+          <img src={Discord} alt="" />
+          <p>Discord</p>
+        </div>
         <div className="skill">
           <img src={Teams} alt="" />
           <p>Teams</p>
