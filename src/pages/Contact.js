@@ -18,7 +18,8 @@ const Contact = () => (
         <p>Augmented Reality</p>
         <p>3D Modelling</p>
         <p>Live Streaming</p>
-        <p>Programming</p>
+
+        <p>Photography</p>
         <p>React</p>
         <p>Springboot</p>
 
@@ -30,7 +31,7 @@ const Contact = () => (
 
       <h3>MINDING A PROJECT?</h3>
       <button className="hire-me">
-        <a href="mailto:fiz@fizx.xyz">Contact Me</a>
+        <a href="mailto:hafizkadir.work@gmail.com">Contact Me</a>
       </button>
       <p>
         <a href="https://ko-fi.com/criedfizcken">

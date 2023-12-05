@@ -54,6 +54,14 @@ import matlab from '../assets/matlab.png'
 import MCMC from '../assets/MCMC_Logo.png'
 import Mui from '../assets/mui.png'
 import Discord from '../assets/discord.png'
+import Netlify from '../assets/netlify.svg'
+import Heroku from '../assets/heroku_icon_130912.png'
+import Intellij from '../assets/IntelliJ_IDEA_Icon.svg.png'
+import Kotlin from '../assets/Kotlin_Icon.svg.png'
+
+
+
+
 
 
 
@@ -221,21 +229,21 @@ const About = () => (
       </div>
       <h2 className="skill-title">Mobile</h2>
       <div className="skills">
-        <div className="skill">
+      <div className="skill">
+          <img src={Flutter} alt="" />
+          <p>Flutter</p>
+        </div><div className="skill">
           <img src={ReactIcon} alt="" />
           <p>React Native</p>
         </div>
-        <div className="skill">
-          <img src={Flutter} alt="" />
-          <p>Flutter</p>
-        </div>
+        
 
         <div className="skill">
-          <img src={Android} alt="" />
-          <p>Android Studio</p>
+          <img src={Kotlin} alt="" />
+          <p>Kotlin</p>
         </div>
       </div>
-      <h2 className="skill-title">Git</h2>
+      <h2 className="skill-title">Version Control & Deployment</h2>
       <div className="skills">
         <div className="skill">
           <img src={GitLogo} alt="" />
@@ -253,12 +261,24 @@ const About = () => (
           <img src={Bitbucket} alt="" />
           <p>Bitbucket</p>
         </div>
+        <div className="skill">
+          <img src={Netlify} alt="" />
+          <p>Netlify</p>
+        </div>
+        <div className="skill">
+          <img src={Heroku} alt="" />
+          <p>Heroku</p>
+        </div>
       </div>
       <h2 className="skill-title">Tools</h2>
       <div className="skills">
         <div className="skill">
           <img src={VSCode} alt="" />
           <p>VS Code</p>
+        </div>
+        <div className="skill">
+          <img src={Intellij} alt="" />
+          <p>IntelliJ</p>
         </div>
         <div className="skill">
           <img src={matlab} alt="" />
@@ -268,6 +288,10 @@ const About = () => (
         <div className="skill">
           <img src={PostMan} alt="" />
           <p>Postman</p>
+        </div>
+        <div className="skill">
+          <img src={Android} alt="" />
+          <p>Android Studio</p>
         </div>
         <div className="skill">
           <img src={NPMlogo} alt="" />
