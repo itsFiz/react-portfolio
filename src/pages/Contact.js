@@ -2,6 +2,8 @@ import React from 'react'
 import './Contact.css'
 
 const Contact = () => (
+ 
+
   <div className="contact" id="contact">
     <div className="footer-left">
       <h1>

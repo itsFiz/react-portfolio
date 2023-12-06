@@ -1,7 +1,8 @@
-import React from 'react'
-import './Hero.css'
-import { Link } from 'react-scroll'
-import Imu from '../assets/fizloki.jpeg'
+import React from "react";
+import "./Hero.css";
+import { Link } from "react-scroll";
+import Imu from "../assets/fizloki.jpeg";
+import Typewriter from "typewriter-effect";
 
 const Hero = () => (
   <div className="hero" id="home">
@@ -13,6 +14,10 @@ const Hero = () => (
           I do AR, Fullstack Dev, Ui/Ux, Photography and stream on Twitch for
           fun!
         </h3>
+        
+       
+          
+        
         <p className="paragraph">
           I'm passionate about crafting exceptional digital experiences. I bring
           ideas to life in the virtual realm with a keyboard as my paintbrush
@@ -41,11 +46,11 @@ const Hero = () => (
     </div>
     <div>
       <p align="left">
-        {' '}
+        {" "}
         <img
           src="https://komarev.com/ghpvc/?username=itsfiz&label=Profile%20views&color=ce3636&style=flat"
           alt="itsfiz"
-        />{' '}
+        />{" "}
       </p>
     </div>
     <div className="social-icons">
@@ -100,6 +105,6 @@ const Hero = () => (
       </a>
     </div>
   </div>
-)
+);
 
-export default Hero
+export default Hero;
