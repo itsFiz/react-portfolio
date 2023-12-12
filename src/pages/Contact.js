@@ -1,17 +1,47 @@
-import React from 'react'
+import React,  { useRef }from 'react'
 import './Contact.css'
+import emailjs from "@emailjs/browser";
 
-const Contact = () => (
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
+const Contact = () => {
  
+  const notify = () => toast("Wow so easy !");
+    const form = useRef();
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm(
+          "service_nnumsqs","template_nlqzrsa",
+          form.current,
+          "L1nXwHkN6KpTJN_Uv"
+        )
+        .then(
+          (result) => {
+            <ToastContainer />
+            console.log(result.text);
+            console.log("message sent");
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    };
 
+  return(
   <div className="contact" id="contact">
     <div className="footer-left">
       <h1>
-        I LOVE <br />
-        COFFEE
-        <br /> CHAT
+        Minding a project?
       </h1>
-      <p className="footer-text">&copy; 2023 Hafiz Kadir</p>
+      <button className="hire-me" style={{marginLeft:"20%"}}>
+        <a href="mailto:hafizkadir.work@gmail.com">Contact Me</a>
+      </button>
+      
+      <p className="footer-text" style={{marginTop:"150px"}}>&copy; 2023 Hafiz Kadir</p>
     </div>
     <div className="footer-right">
       <h3>I'M ALWAYS INTERESTED ABOUT</h3>
@@ -31,10 +61,8 @@ const Contact = () => (
 
       <hr />
 
-      <h3>MINDING A PROJECT?</h3>
-      <button className="hire-me">
-        <a href="mailto:hafizkadir.work@gmail.com">Contact Me</a>
-      </button>
+      
+      
       <p>
         <a href="https://ko-fi.com/criedfizcken">
           {' '}
@@ -106,6 +134,7 @@ const Contact = () => (
       <hr />
     </div>
   </div>
-)
+  )
+}
 
 export default Contact
