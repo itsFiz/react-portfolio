@@ -106,7 +106,7 @@ You may also see any lint errors in the console.
 
 👤 **Hafiz Kadir**
 
-- GitHub: [@itsFiz](https://github.com/PrantoshB)
+- GitHub: [@itsFiz](https://github.com/itsFiz)
 - Twitter: [@criedfizcken](https://twitter.com/criedfizcken)
 - LinkedIn: [Hafiz Kadir](https://www.linkedin.com/in/hfzkdr/)
 - Youtube: [Hafiz Kadir](https://www.youtube.com/@criedfizcken6200)
