@@ -2,7 +2,6 @@
 
 <h1 align='center'> Portfolio - Hafiz Kadir 🤟🏻 </h1>
 
-
 # Table of Contents
 
 - [Table of Contents](#-table-of-contents)
